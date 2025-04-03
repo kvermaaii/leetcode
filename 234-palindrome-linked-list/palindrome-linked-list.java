@@ -10,45 +10,23 @@
  */
 class Solution {
     public boolean isPalindrome(ListNode head) {
-        int length = length(head);
-        Stack<Integer> stk = new Stack<Integer>();
-
-        if(length%2 == 0){
-            length = length/2;
-        for(int i = 0; i<length; i++){
-            stk.push(head.val);
-            head = head.next;
+        ListNode slow = head;
+        ListNode fast = head;
+        Stack<Integer> stk = new Stack<>();
+        while(fast != null && fast.next != null){
+            stk.push(slow.val);
+            slow = slow.next;
+            fast = fast.next.next;
         }
-        for(int i = 0; i<length; i++){
-            if(head.val == stk.peek()){
-                stk.pop();
+        if(fast != null){
+            slow = slow.next;
+        }
+        while(slow != null){
+            if(slow.val != stk.pop()){
+                return false;
             }
-            head = head.next;
+            slow = slow.next;
         }
-        } else{
-            length = (length-1)/2;
-        for(int i = 0; i<length; i++){
-            stk.push(head.val);
-            head = head.next;
-        }
-        head = head.next;
-        for(int i = 0; i<length; i++){
-            if(head.val == stk.peek()){
-                stk.pop();
-            }
-            head = head.next;
-        }
-        }
-
-        return stk.isEmpty();
-    }
-    public int length(ListNode head){
-        ListNode iter = head;
-        int count = 0;
-        while(iter != null){
-            iter = iter.next;
-            count++;
-        }
-        return count;
+        return true;
     }
 }
