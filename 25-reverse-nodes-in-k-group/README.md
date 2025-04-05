@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/reverse-nodes-in-k-group">Reverse Nodes in k-Group</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>Given the <code>head</code> of a linked list, reverse the nodes of the list <code>k</code> at a time, and return <em>the modified list</em>.</p>
+<h2><a href="https://leetcode.com/problems/reverse-nodes-in-k-group">Reverse Nodes in k-Group</a></h2> <h2>Did this one in first try</h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>Given the <code>head</code> of a linked list, reverse the nodes of the list <code>k</code> at a time, and return <em>the modified list</em>.</p>
 
 <p><code>k</code> is a positive integer and is less than or equal to the length of the linked list. If the number of nodes is not a multiple of <code>k</code> then left-out nodes, in the end, should remain as it is.</p>
 
