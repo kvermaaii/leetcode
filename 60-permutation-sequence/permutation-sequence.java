@@ -1,61 +1,37 @@
 class Solution {
     public String getPermutation(int n, int k) {
-         // Create an array containing numbers from 1 to n
-        int[] partn = new int[n];
-        for (int i = 0; i < n; i++) {
-            partn[i] = i + 1;
-        }
-        int[] KthPermutation = {1};
+        /*
+        n -> n*(n-1)!
+        among n! no., first (n-1)! starts with 1 so if k<(n-1)! it starts with 1
+        so first we need to find a value p such that k is between p(n-1)! to p+1(n-1)! then do k = k-p(n-1)!
+        swaping with which index will depend on p, if p=1 swap with 1 index and sort the remainnig array.
+        now again find a vaulue p such that p(n-2)! <k < p+1(n-1)! and repeat the same thing until k converges to a single value and that permutaion will be returned 
+         */
 
-        // Call the `swap` function and store the result
-        int[] result = swap(0, n, k, partn, KthPermutation);
-        
-        // Concatenate all numbers in `result` to form the final string
-        StringBuilder sb = new StringBuilder();
-        for (int num : result) {
-            sb.append(num);
+        List<Integer> numbers = new ArrayList<>();
+        for (int i = 1; i <= n; i++) {
+            numbers.add(i);
         }
-        
-        return sb.toString();
+
+        int[] factorial = new int[n + 1]; // Make factorial array of size n + 1
+        factorial[0] = 1;
+        for (int i = 1; i <= n; i++) {
+            factorial[i] = factorial[i - 1] * i;
+        }
+
+        // Step 3: Adjust k to be zero-based
+        k--;
+
+        // Step 4: Build the permutation string
+        StringBuilder result = new StringBuilder();
+        for (int i = n - 1; i >= 0; i--) {
+            int index = k / factorial[i];
+            result.append(numbers.get(index));
+            numbers.remove(index);
+
+            k %= factorial[i];
+        }
+
+        return result.toString();
     }
-
-    public int[] swap(int i, int n, int k, int[] partn, int[] KthPermutation) {
-        // System.out.println(KthPermutation[0]);
-        // for(int p=0; p<partn.length; p++){
-        //     System.out.print(partn[p]);
-        // }
-        // System.out.println();
-
-        if (KthPermutation[0] == k) {
-            return partn;
-        }
-        if( i == n){
-            KthPermutation[0]++;
-            return null;
-        }
-        for (int l = i; l < partn.length; l++) {
-            // Swap elements at index `i` and `l`
-            int temp = partn[i];
-            partn[i] = partn[l];
-            partn[l] = temp;
-
-            // Arrays.sort(partn, i + 1, partn.length);
-            int[] sortedPartn = Arrays.copyOf(partn, partn.length);
-            Arrays.sort(sortedPartn, i + 1, sortedPartn.length);
-
-            // Increment the KthPermutation counter
-            // Recursive call
-            int[] result = swap(i + 1, n, k, sortedPartn, KthPermutation);
-            if (result != null) {
-                return result;
-            }
-            
-            // // Backtrack by undoing the swap
-            temp = partn[i];
-            partn[i] = partn[l];
-            partn[l] = temp;
-        }
-        return null; // Return null if no valid permutation is found
-    }
-
 }
