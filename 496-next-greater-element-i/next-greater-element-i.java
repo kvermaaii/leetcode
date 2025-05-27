@@ -10,7 +10,6 @@ class Solution {
             while(stk1.peek() != nums1[j]){
                 stk2.add(stk1.pop());
             }
-            // stk1.pop();
             int max =-1;
             boolean f = true;
             while(!stk2.isEmpty()){
