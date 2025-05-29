@@ -1,0 +1,31 @@
+//Question
+Given a stack, the task is to sort it such that the top of the stack has the greatest element.
+
+Example 1:
+Input:
+Stack: 3 2 1
+Output: 3 2 1
+
+//code
+class GfG {
+    public Stack<Integer> sort(Stack<Integer> s) {
+        if (s.isEmpty()) {
+            return s;
+        }
+        int top = s.pop();
+        sort(s);
+        insertIntoSorted(s,top);
+        
+        return s;
+    }
+    public void insertIntoSorted(Stack<Integer> s, int top){
+        if(s.isEmpty() || top >= s.peek()){
+            s.push(top);
+            return;
+        }
+        int temp=s.pop();
+        insertIntoSorted(s,top);
+        s.push(temp);
+    }
+    
+}
