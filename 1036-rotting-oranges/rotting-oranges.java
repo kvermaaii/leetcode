@@ -54,4 +54,4 @@ class Solution {
         }
         return minutes;
     }
-}
+}// alternatively we can also keep the count of fresh oranges and decrement it every time a orange get rotten and if fresh orange count is zero we can early exit the for loop
