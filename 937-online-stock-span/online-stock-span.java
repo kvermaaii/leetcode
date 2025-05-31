@@ -6,23 +6,23 @@ class StockSpanner {
     
     public int next(int price) {
         if(stk.isEmpty()){
-            stk.push(new int[]{price,-1,0});
+            stk.push(new int[]{price,0});
             return 1;
         }
         if(stk.peek()[0]>price){
-            stk.push(new int[]{price,stk.peek()[0],stk.peek()[2]+1});
+            stk.push(new int[]{price,stk.peek()[1]+1});
             return 1;
         }
-        int index = stk.peek()[2]+1;
+        int index = stk.peek()[1]+1;
         while(!stk.isEmpty() && !(stk.peek()[0]>price)){
             stk.pop();
         }
         if(stk.isEmpty()){
-            stk.push(new int[]{price,-1,index});
+            stk.push(new int[]{price,index});
             return index+1;
         }
-        int noOfDays = index-stk.peek()[2];
-        stk.push(new int[]{price,stk.peek()[0],index});
+        int noOfDays = index-stk.peek()[1];
+        stk.push(new int[]{price,index});
         return noOfDays;
     }
 }
