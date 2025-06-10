@@ -10,12 +10,12 @@ class Solution {
         map.put('D', 500);
         map.put('M', 1000);
         int sum = 0;
-        char[] chr = s.toCharArray();
-        for (int i = chr.length-1 ; i >= 0; i--) {
-            if(i != chr.length-1 && (map.get(chr[i+1]) > map.get(chr[i])) ){
-                sum -= map.get(chr[i]);
+        int length = s.length();
+        for (int i = length-1 ; i >= 0; i--) {
+            if(i != length-1 && (map.get(s.charAt(i+1)) > map.get(s.charAt(i))) ){
+                sum -= map.get(s.charAt(i));
             } else{
-                sum += map.get(chr[i]);
+                sum += map.get(s.charAt(i));
             }
         }
         return sum;                                                     
