@@ -40,7 +40,7 @@ class Solution {
                     return true;
                 }
             } else if(i > 0){
-                i = h[i-1];
+                i =h[i-1];
             } else{
                 k++;
             }
