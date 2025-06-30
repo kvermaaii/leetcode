@@ -18,23 +18,19 @@ class Solution {
     public int diameterOfBinaryTree(TreeNode root) {
         if(root == null) return 0;
         rec(root);
-        return diameter;
+        return diameter-1;
     }
-    public void rec(TreeNode node){
+    public int rec(TreeNode node){
         int leftLength = 0, rightLength = 0;
         if(node.left != null){
-            leftLength =  maxDepth(node.left,0);
+            leftLength = rec(node.left);
         }
         if(node.right != null){
-            rightLength =  maxDepth(node.right,0);
+            rightLength = rec(node.right);
         }
-        diameter = Math.max(diameter, rightLength + leftLength);
-        if(node.left != null){
-            rec(node.left);
-        }
-        if(node.right != null){
-            rec(node.right);
-        }
+        diameter = Math.max(diameter, rightLength + leftLength + 1);
+
+        return 1 + Math.max(leftLength, rightLength);
     }
     public int maxDepth(TreeNode node, int level) {
         if (node == null) {
