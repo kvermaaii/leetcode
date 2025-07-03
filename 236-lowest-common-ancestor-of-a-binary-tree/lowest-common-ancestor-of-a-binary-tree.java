@@ -45,9 +45,7 @@ class Solution {
             tp.LCS = y.LCS;
         } else if ((x.pFlag && y.qFlag) || (x.qFlag && y.pFlag)) {
             tp.LCS = root;
-        } else if (tp.pFlag && (x.qFlag || y.qFlag)) {
-            tp.LCS = root;
-        } else if (tp.qFlag && (x.pFlag || y.pFlag)) {
+        } else if (tp.pFlag && tp.qFlag) {
             tp.LCS = root;
         }
 
