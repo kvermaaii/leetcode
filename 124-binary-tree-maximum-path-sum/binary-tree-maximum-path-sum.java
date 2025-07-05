@@ -27,6 +27,7 @@ class Solution {
     }
     public Tuple rec(TreeNode root){
         if(root == null) return new Tuple(0,Integer.MIN_VALUE);
+        if (root.left == null && root.right == null) return new Tuple(root.val, root.val);
 
         Tuple left = rec(root.left);
         Tuple right = rec(root.right);
