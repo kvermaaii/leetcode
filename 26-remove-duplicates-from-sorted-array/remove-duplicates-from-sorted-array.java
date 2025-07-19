@@ -1,9 +1,11 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
-        int[] arr = Arrays.copyOf(nums, nums.length);;
+        if (nums.length == 0) return 0;
+        int l = nums.length;
+        int[] arr = Arrays.copyOf(nums, l);;
         int start = 0;
         int end = nums.length - 1;
-        for(int i = 0; i< nums.length; i++){
+        for(int i = 0; i< l; i++){
             if(i == 0){
                 nums[start] = arr[0];
                 start++;
