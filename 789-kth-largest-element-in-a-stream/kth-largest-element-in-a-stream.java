@@ -1,38 +1,34 @@
-import java.util.*;
-
 class KthLargest {
     int kth;
-    List<Integer> list;
+    PriorityQueue<Integer> minHeap;
 
     public KthLargest(int k, int[] nums) {
         kth = k;
-        list = new ArrayList<>();
-        Arrays.sort(nums);
-        for (int num : nums) {
-            list.add(num);
+        minHeap = new PriorityQueue<>(kth);
+        for(int num: nums){
+            if(minHeap.size() < kth){
+                minHeap.add(num);
+            } else if(num > minHeap.peek()) {
+                minHeap.add(num);
+                if(minHeap.size() > kth){
+                    minHeap.poll();
+                }
+            }
         }
     }
-
+    
     public int add(int val) {
-        insert(list, val, 0, list.size() - 1);
-        return list.get(list.size() - kth);
-    }
-
-    private void insert(List<Integer> list, int val, int start, int end) {
-        // When list is empty or insert at end
-        if (start > end) {
-            list.add(start, val);
-            return;
+        if(minHeap.size() < kth){
+            minHeap.add(val);
+        } else if(val > minHeap.peek()) {
+            minHeap.add(val);
+            if(minHeap.size() > kth){
+                minHeap.poll();
+            }
         }
-        int mid = start + (end - start) / 2;
-        if (list.get(mid) > val) {
-            insert(list, val, start, mid - 1);
-        } else {
-            insert(list, val, mid + 1, end);
-        }
+        return minHeap.peek();
     }
 }
-
 
 /**
  * Your KthLargest object will be instantiated and called as such:
