@@ -15,7 +15,7 @@ class Solution {
                 totalPenalty--;
             }
             if(totalPenalty < minPenalty) {
-                minPenalty = Math.min(minPenalty, totalPenalty);
+                minPenalty = totalPenalty;
                 ind = i+1;
             }
         }
