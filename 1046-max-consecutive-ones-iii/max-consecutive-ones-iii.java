@@ -10,7 +10,6 @@ class Solution {
             oneCount += currNum;
             if(currNum == 0) zeroCount++;
             while(begin <= end && zeroCount > k){
-                maxConsOne = Math.max(maxConsOne,oneCount + zeroCount - 1);
                 if(nums[begin] == 0){
                     zeroCount--;
                 }else{
@@ -19,8 +18,8 @@ class Solution {
                 begin++;
             }
             end++;
+            maxConsOne = Math.max(maxConsOne,oneCount + zeroCount);//added this here bacause whenever zeroCount is getting more thenthe allowed value we are decreasing it 
         }
-        if(zeroCount <= k) return Math.max(maxConsOne, oneCount + zeroCount);
         return maxConsOne;
     }
 }
