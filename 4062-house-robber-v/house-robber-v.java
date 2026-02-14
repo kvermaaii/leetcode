@@ -11,9 +11,11 @@ class Solution {
         if(i < 0) return 0;
         if(memo[i][f] != -1) return memo[i][f];
         long pick = 0;
-        if(i != (nums.length - 1) && color[i+1] != color[i]){
-            pick = nums[i] + rec(nums,i-1,color, 1);
-        }else if(i == (nums.length - 1) || f == 0){
+        boolean canPick = true;
+        if(f == 1 && i < nums.length-1 && color[i] == color[i+1]){
+            canPick = false;
+        }
+        if(canPick){
             pick = nums[i] + rec(nums,i-1,color, 1);
         }
         long noPick =  rec(nums,i-1,color, 0);
