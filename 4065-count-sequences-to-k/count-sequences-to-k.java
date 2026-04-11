@@ -17,4 +17,8 @@ class Solution {
         dp.put(st,count);
         return count;
     }
+    // Helper method to calculate Greatest Common Divisor
+    private long gcd(long a, long b) {
+        return b == 0 ? a : gcd(b, a % b);
+    }
 }
