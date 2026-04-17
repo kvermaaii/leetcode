@@ -12,13 +12,28 @@ class Solution {
         }
         return (minDist != Integer.MAX_VALUE) ? minDist : -1;
     }
-    public int reverse(int x){
-        StringBuilder sb = new StringBuilder();
-        while(x != 0){
-            int dig = x % 10;
-            sb.append(dig);
-            x /= 10;
-        }
-        return Integer.parseInt(sb.toString());
+    // public int reverse(int x){
+    //     StringBuilder sb = new StringBuilder();
+    //     while(x != 0){
+    //         int dig = x % 10;
+    //         sb.append(dig);
+    //         x /= 10;
+    //     }
+    //     return Integer.parseInt(sb.toString());
+    // }
+
+    public int reverse(int x) {
+    int reversed = 0;
+    
+    while (x > 0) {
+        int lastDigit = x % 10;
+        
+        // Shift existing digits left, and add the new digit to the empty slot
+        reversed = (reversed * 10) + lastDigit; 
+        
+        x /= 10;
     }
+    
+    return reversed;
+}
 }
