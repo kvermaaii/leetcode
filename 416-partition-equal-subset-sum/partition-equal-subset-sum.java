@@ -1,34 +1,19 @@
 class Solution {
     public boolean canPartition(int[] nums) {
-        int n = nums.length;
         int sum = 0;
-        for(int k = 0; k < n; k++){
-            sum = sum + nums[k];
+        int n = nums.length;
+        for(int i = 0; i < n; i++){
+            sum += nums[i];
         }
-        if(sum %2 != 0){
-            return false;
-        }
-        sum = sum/2;
-        boolean[][] dp = new boolean[n+1][sum+1];
-        for(int i = 0; i < n+1; i++){
-            for(int j = 0; j < sum+1; j++){
-                if(i == 0 && j != 0){
-                    dp[i][j] = false;
-                }
-                if(j == 0){
-                    dp[i][j] = true;
-                }
-            }
-        }
-        for(int i = 1; i < n+1; i++){
-            for(int j = 1; j < sum+1; j++){
-                if(nums[i-1] <= j){
-                    dp[i][j] = dp[i-1][j-nums[i-1]] || dp[i-1][j];
-                } else{
-                    dp[i][j] = dp[i-1][j];
-                }
-            }
-        }
-        return dp[n][sum];
+        Boolean[][] dp = new Boolean[n][sum];
+        return rec(nums, 0, 0, sum, dp);
+    }
+    boolean rec(int[] nums, int i , int sum, int t, Boolean[][] dp){
+        if(t - 2*sum == 0) return true;
+        if(i >= nums.length) return false;
+        if(dp[i][sum] != null) return dp[i][sum];
+        boolean pick = rec(nums, i+1, sum + nums[i],t,dp);
+        boolean pickNot = rec(nums, i+1, sum,t, dp);
+        return dp[i][sum] = pick || pickNot;
     }
 }
