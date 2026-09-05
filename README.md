@@ -5,12 +5,12 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 158
+**Total questions indexed:** 159
 
 
 ## Topic Index
 
-- [Arrays](#arrays) (89)
+- [Arrays](#arrays) (90)
 - [Hashing](#hashing) (15)
 - [Two Pointers](#two-pointers) (10)
 - [Sliding Window](#sliding-window) (12)
@@ -23,7 +23,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 - [Linked List](#linked-list) (12)
 - [Trees & BST](#trees--bst) (37)
 - [Graphs (BFS/DFS)](#graphs-bfsdfs) (7)
-- [Dynamic Programming](#dynamic-programming) (15)
+- [Dynamic Programming](#dynamic-programming) (16)
 - [Backtracking](#backtracking) (9)
 - [Greedy](#greedy) (3)
 - [Strings](#strings) (23)
@@ -67,6 +67,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 494 | [Target Sum](./494-target-sum/README.md) | Medium | High | [Code](./494-target-sum/target-sum.java) | [Link](https://leetcode.com/problems/target-sum) | You are given an integer array nums and an integer target . |
 | - [ ] | 496 | [Next Greater Element I](./496-next-greater-element-i/README.md) | Easy | Medium | [Code](./496-next-greater-element-i/next-greater-element-i.java) | [Link](https://leetcode.com/problems/next-greater-element-i) | The next greater element of some element x in an array is the first greater element that is to the right of x in the... |
 | - [ ] | 503 | [Next Greater Element II](./503-next-greater-element-ii/README.md) | Medium | Medium | [Code](./503-next-greater-element-ii/next-greater-element-ii.java) | [Link](https://leetcode.com/problems/next-greater-element-ii) | Given a circular integer array nums (i.e., the next element of nums[nums.length - 1] is nums[0] ), return the next gr... |
+| - [ ] | 518 | [Coin Change II](./518-coin-change-ii/README.md) | Medium | Medium | [Code](./518-coin-change-ii/coin-change-ii.java) | [Link](https://leetcode.com/problems/coin-change-ii) | You are given an integer array coins representing coins of different denominations and an integer amount representing... |
 | - [ ] | 540 | [Single Element in a Sorted Array](./540-single-element-in-a-sorted-array/README.md) | Medium | Medium | [Code](./540-single-element-in-a-sorted-array/single-element-in-a-sorted-array.java) | [Link](https://leetcode.com/problems/single-element-in-a-sorted-array) | You are given a sorted array consisting of only integers where every element appears exactly twice, except for one el... |
 | - [ ] | 560 | [Subarray Sum Equals K](./560-subarray-sum-equals-k/README.md) | Medium | High | [Code](./560-subarray-sum-equals-k/subarray-sum-equals-k.java) | [Link](https://leetcode.com/problems/subarray-sum-equals-k) | Given an array of integers nums and an integer k , return the total number of subarrays whose sum equals to k . |
 | - [ ] | 653 | [Two Sum IV - Input is a BST](./653-two-sum-iv-input-is-a-bst/README.md) | Easy | Medium | [Code](./653-two-sum-iv-input-is-a-bst/two-sum-iv-input-is-a-bst.java) | [Link](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | Given the root of a binary search tree and an integer k , return true if there exist two elements in the BST such tha... |
@@ -339,6 +340,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 322 | [Coin Change](./322-coin-change/README.md) | Medium | High | [Code](./322-coin-change/coin-change.java) | [Link](https://leetcode.com/problems/coin-change) | You are given an integer array coins representing coins of different denominations and an integer amount representing... |
 | - [ ] | 416 | [Partition Equal Subset Sum](./416-partition-equal-subset-sum/README.md) | Medium | High | [Code](./416-partition-equal-subset-sum/partition-equal-subset-sum.java) | [Link](https://leetcode.com/problems/partition-equal-subset-sum) | Given an integer array nums , return true if you can partition the array into two subsets such that the sum of the el... |
 | - [ ] | 494 | [Target Sum](./494-target-sum/README.md) | Medium | High | [Code](./494-target-sum/target-sum.java) | [Link](https://leetcode.com/problems/target-sum) | You are given an integer array nums and an integer target . |
+| - [ ] | 518 | [Coin Change II](./518-coin-change-ii/README.md) | Medium | Medium | [Code](./518-coin-change-ii/coin-change-ii.java) | [Link](https://leetcode.com/problems/coin-change-ii) | You are given an integer array coins representing coins of different denominations and an integer amount representing... |
 | - [ ] | 4062 | [House Robber V](./4062-house-robber-v/README.md) | Medium | Low | [Code](./4062-house-robber-v/house-robber-v.java) | [Link](https://leetcode.com/problems/house-robber-v) | You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed... |
 | - [ ] | — | [Count Subsets with Sum](./Difficulty: Medium/Count Subsets with Sum/README.md) | Medium | Medium | [Code](./Difficulty: Medium/Count Subsets with Sum/count-subsets-with-sum.java) | [Link](https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1) | Given an array arr[] of non-negative integers and an integer target , the task is to count all subsets of the array w... |
 | - [ ] | — | [Partitions with Given Difference](./Difficulty: Medium/Partitions with Given Difference/README.md) | Medium | Medium | [Code](./Difficulty: Medium/Partitions with Given Difference/partitions-with-given-difference.java) | [Link](https://www.geeksforgeeks.org/problems/partitions-with-given-difference/1) | Partitions with Given Difference Difficulty Level : Difficulty: Medium Given an array arr[] and an integer diff , cou... |
