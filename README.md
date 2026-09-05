@@ -5,7 +5,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 156
+**Total questions indexed:** 157
 
 
 ## Topic Index
@@ -23,7 +23,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 - [Linked List](#linked-list) (12)
 - [Trees & BST](#trees--bst) (37)
 - [Graphs (BFS/DFS)](#graphs-bfsdfs) (7)
-- [Dynamic Programming](#dynamic-programming) (13)
+- [Dynamic Programming](#dynamic-programming) (14)
 - [Backtracking](#backtracking) (9)
 - [Greedy](#greedy) (3)
 - [Strings](#strings) (23)
@@ -339,6 +339,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 416 | [Partition Equal Subset Sum](./416-partition-equal-subset-sum/README.md) | Medium | High | [Code](./416-partition-equal-subset-sum/partition-equal-subset-sum.java) | [Link](https://leetcode.com/problems/partition-equal-subset-sum) | Given an integer array nums , return true if you can partition the array into two subsets such that the sum of the el... |
 | - [ ] | 494 | [Target Sum](./494-target-sum/README.md) | Medium | High | [Code](./494-target-sum/target-sum.java) | [Link](https://leetcode.com/problems/target-sum) | You are given an integer array nums and an integer target . |
 | - [ ] | 4062 | [House Robber V](./4062-house-robber-v/README.md) | Medium | Low | [Code](./4062-house-robber-v/house-robber-v.java) | [Link](https://leetcode.com/problems/house-robber-v) | You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed... |
+| - [ ] | — | [Count Subsets with Sum](./Difficulty: Medium/Count Subsets with Sum/README.md) | Medium | Medium | [Code](./Difficulty: Medium/Count Subsets with Sum/count-subsets-with-sum.java) | [Link](https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1) | Given an array arr[] of non-negative integers and an integer target , the task is to count all subsets of the array w... |
 | - [ ] | — | [Perfect Sum](./perfect-sum/README.md) | Mediumaccuracy | Medium | [Code](./perfect-sum/perfect-sum.java) | — | Difficulty: MediumAccuracy: 20.58%Submissions: 551K+Points: 4 |
 | - [ ] | — | [Rod Cutting](./Rod-Cutting/README.md) | Medium | Medium | [Code](./Rod-Cutting/rod-cutting.java) | — | Given a rod of length n and a 1-indexed array price where price[i] denotes the value of a piece of length i, determin... |
 | - [ ] | — | [Subset Sum](./Subset-Sum/README.md) | Mediumaccuracy | Medium | [Code](./Subset-Sum/subset-sum.java) | — | Difficulty: MediumAccuracy: 32.0%Submissions: 378K+Points: 4 |

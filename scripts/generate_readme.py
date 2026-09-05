@@ -6,6 +6,11 @@ from collections import defaultdict
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 EXTS = (".java", ".py", ".cpp", ".c", ".js", ".ts", ".go", ".cs", ".rb", ".kt")
+TOPIC_CATEGORIES = [
+    "Arrays", "Hashing", "Two Pointers", "Sliding Window", "Prefix Sum", "Binary Search", "Sorting / Ordering",
+    "Stack / Monotonic Stack", "Queue / Deque", "Heap / Priority Queue", "Linked List", "Trees & BST",
+    "Graphs (BFS/DFS)", "Dynamic Programming", "Backtracking", "Greedy", "Strings", "Bit Manipulation", "Math", "Design",
+]
 
 
 def clean_text(s: str) -> str:
@@ -29,6 +34,32 @@ def folder_slug(name: str) -> str:
 
 def has_any(text: str, *keys: str) -> bool:
     return any(k in text for k in keys)
+
+
+def normalize_topic_name(topic: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", topic.lower())
+
+
+TOPIC_LOOKUP = {normalize_topic_name(t): t for t in TOPIC_CATEGORIES}
+
+
+def extract_topic_tags(text: str):
+    start = text.lower().find("topic tags")
+    if start == -1:
+        return []
+
+    tail = text[start:start + 3000]
+    raw_topics = [clean_text(m.group(1)) for m in re.finditer(r"<code>(.*?)</code>", tail, flags=re.I | re.S)]
+    raw_topics = [t for t in raw_topics if t]
+
+    topics = []
+    seen = set()
+    for raw in raw_topics:
+        canonical = TOPIC_LOOKUP.get(normalize_topic_name(raw))
+        if canonical and canonical not in seen:
+            seen.add(canonical)
+            topics.append(canonical)
+    return topics
 
 
 def topic_list(text_blob: str):
@@ -81,10 +112,21 @@ def topic_list(text_blob: str):
 
 def load_entries():
     entries = []
-    for name in sorted(os.listdir(ROOT)):
-        folder = os.path.join(ROOT, name)
-        if not os.path.isdir(folder) or name.startswith("."):
+    candidate_dirs = []
+    for dirpath, dirnames, filenames in os.walk(ROOT):
+        rel = os.path.relpath(dirpath, ROOT)
+        if rel == ".":
+            dirnames[:] = [d for d in dirnames if not d.startswith(".")]
             continue
+        parts = rel.split(os.sep)
+        if any(p.startswith(".") for p in parts):
+            dirnames[:] = []
+            continue
+        if "README.md" in filenames:
+            candidate_dirs.append(rel)
+
+    for name in sorted(candidate_dirs):
+        folder = os.path.join(ROOT, name)
         readme = os.path.join(folder, "README.md")
         if not os.path.exists(readme):
             continue
@@ -157,8 +199,12 @@ def load_entries():
         if not lc_url and num.isdigit() and folder_slug(name):
             lc_url = f"https://leetcode.com/problems/{folder_slug(name)}"
 
-        blob = " ".join([name, title, desc, lc_url]).lower()
-        topics = topic_list(blob)
+        explicit_topics = extract_topic_tags(text)
+        if explicit_topics:
+            topics = explicit_topics
+        else:
+            blob = " ".join([name, title, desc, lc_url]).lower()
+            topics = topic_list(blob)
 
         high_ids = {
             "1", "2", "3", "15", "20", "21", "53", "98", "102", "104", "105", "106", "110", "124", "131", "138", "146", "155", "160", "169", "198", "206", "209", "213", "215", "230", "236", "239", "277", "297", "322", "347", "416", "494", "560", "733"
@@ -218,12 +264,7 @@ def build_readme(entries):
         for t in e["topics"]:
             topic_map[t].append(e)
 
-    preferred = [
-        "Arrays", "Hashing", "Two Pointers", "Sliding Window", "Prefix Sum", "Binary Search", "Sorting / Ordering",
-        "Stack / Monotonic Stack", "Queue / Deque", "Heap / Priority Queue", "Linked List", "Trees & BST",
-        "Graphs (BFS/DFS)", "Dynamic Programming", "Backtracking", "Greedy", "Strings", "Bit Manipulation", "Math", "Design",
-    ]
-    topics = [t for t in preferred if t in topic_map] + sorted(t for t in topic_map if t not in preferred)
+    topics = [t for t in TOPIC_CATEGORIES if t in topic_map] + sorted(t for t in topic_map if t not in TOPIC_CATEGORIES)
 
     out = []
     out.append("# LeetCode Interview Prep Tracker\n")
