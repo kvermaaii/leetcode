@@ -51,7 +51,7 @@ def topic_list(text_blob: str):
         topics.append("Heap / Priority Queue")
     if has_any(text_blob, "binary search", "sorted array", "search in rotated", "kth smallest", "single element in a sorted array", "floor and ceil"):
         topics.append("Binary Search")
-    if has_any(text_blob, "dynamic programming", "house robber", "coin change", "triangle", "target sum", "partition equal subset", "knapsack", "rod cutting", "subset sum", "perfect sum", "unique paths", "minimum path sum"):
+    if has_any(text_blob, "dynamic programming", "house robber", "coin change", "triangle", "target sum", "partition equal subset", "knapsack", "rod cutting", "subset sum", "perfect sum", "perfect-sum", "count subsets with sum", "unique paths", "minimum path sum"):
         topics.append("Dynamic Programming")
     if has_any(text_blob, "backtracking", "permutations", "subsets", "combination sum", "n-queens", "palindrome partitioning"):
         topics.append("Backtracking")
@@ -81,10 +81,21 @@ def topic_list(text_blob: str):
 
 def load_entries():
     entries = []
-    for name in sorted(os.listdir(ROOT)):
-        folder = os.path.join(ROOT, name)
-        if not os.path.isdir(folder) or name.startswith("."):
+    candidate_dirs = []
+    for dirpath, dirnames, filenames in os.walk(ROOT):
+        rel = os.path.relpath(dirpath, ROOT)
+        if rel == ".":
+            dirnames[:] = [d for d in dirnames if not d.startswith(".")]
             continue
+        parts = rel.split(os.sep)
+        if any(p.startswith(".") for p in parts):
+            dirnames[:] = []
+            continue
+        if "README.md" in filenames:
+            candidate_dirs.append(rel)
+
+    for name in sorted(candidate_dirs):
+        folder = os.path.join(ROOT, name)
         readme = os.path.join(folder, "README.md")
         if not os.path.exists(readme):
             continue

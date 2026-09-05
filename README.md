@@ -5,12 +5,12 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 156
+**Total questions indexed:** 157
 
 
 ## Topic Index
 
-- [Arrays](#arrays) (88)
+- [Arrays](#arrays) (89)
 - [Hashing](#hashing) (15)
 - [Two Pointers](#two-pointers) (10)
 - [Sliding Window](#sliding-window) (12)
@@ -23,8 +23,8 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 - [Linked List](#linked-list) (12)
 - [Trees & BST](#trees--bst) (37)
 - [Graphs (BFS/DFS)](#graphs-bfsdfs) (7)
-- [Dynamic Programming](#dynamic-programming) (13)
-- [Backtracking](#backtracking) (9)
+- [Dynamic Programming](#dynamic-programming) (14)
+- [Backtracking](#backtracking) (10)
 - [Greedy](#greedy) (3)
 - [Strings](#strings) (23)
 - [Bit Manipulation](#bit-manipulation) (7)
@@ -120,6 +120,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 4258 | [Construct Uniform Parity Array II](./4258-construct-uniform-parity-array-ii/README.md) | Medium | Low | [Code](./4258-construct-uniform-parity-array-ii/construct-uniform-parity-array-ii.java) | [Link](https://leetcode.com/problems/construct-uniform-parity-array-ii) | You are given an array nums1 of n distinct integers. |
 | - [ ] | 4277 | [Minimum Operations to Transform Array into Alternating Prime](./4277-minimum-operations-to-transform-array-into-alternating-prime/README.md) | Medium | Low | [Code](./4277-minimum-operations-to-transform-array-into-alternating-prime/minimum-operations-to-transform-array-into-alternating-prime.java) | [Link](https://leetcode.com/problems/minimum-operations-to-transform-array-into-alternating-prime) | You are given an integer array nums . |
 | - [ ] | 4401 | [Sum of Decoded Numbers](./4401-sum-of-decoded-numbers/README.md) | Medium | Low | [Code](./4401-sum-of-decoded-numbers/sum-of-decoded-numbers.java) | [Link](https://leetcode.com/problems/sum-of-decoded-numbers) | You are given an integer array nums . |
+| - [ ] | — | [Count Subsets with Sum](./Difficulty: Medium/Count Subsets with Sum/README.md) | Medium | Medium | [Code](./Difficulty: Medium/Count Subsets with Sum/count-subsets-with-sum.java) | [Link](https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1) | Given an array arr[] of non-negative integers and an integer target , the task is to count all subsets of the array w... |
 | - [ ] | — | [Perfect Sum](./perfect-sum/README.md) | Mediumaccuracy | Medium | [Code](./perfect-sum/perfect-sum.java) | — | Difficulty: MediumAccuracy: 20.58%Submissions: 551K+Points: 4 |
 | - [ ] | — | [Rod Cutting](./Rod-Cutting/README.md) | Medium | Medium | [Code](./Rod-Cutting/rod-cutting.java) | — | Given a rod of length n and a 1-indexed array price where price[i] denotes the value of a piece of length i, determin... |
 | - [ ] | — | [Subset Sum](./Subset-Sum/README.md) | Mediumaccuracy | Medium | [Code](./Subset-Sum/subset-sum.java) | — | Difficulty: MediumAccuracy: 32.0%Submissions: 378K+Points: 4 |
@@ -339,6 +340,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 416 | [Partition Equal Subset Sum](./416-partition-equal-subset-sum/README.md) | Medium | High | [Code](./416-partition-equal-subset-sum/partition-equal-subset-sum.java) | [Link](https://leetcode.com/problems/partition-equal-subset-sum) | Given an integer array nums , return true if you can partition the array into two subsets such that the sum of the el... |
 | - [ ] | 494 | [Target Sum](./494-target-sum/README.md) | Medium | High | [Code](./494-target-sum/target-sum.java) | [Link](https://leetcode.com/problems/target-sum) | You are given an integer array nums and an integer target . |
 | - [ ] | 4062 | [House Robber V](./4062-house-robber-v/README.md) | Medium | Low | [Code](./4062-house-robber-v/house-robber-v.java) | [Link](https://leetcode.com/problems/house-robber-v) | You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed... |
+| - [ ] | — | [Count Subsets with Sum](./Difficulty: Medium/Count Subsets with Sum/README.md) | Medium | Medium | [Code](./Difficulty: Medium/Count Subsets with Sum/count-subsets-with-sum.java) | [Link](https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1) | Given an array arr[] of non-negative integers and an integer target , the task is to count all subsets of the array w... |
 | - [ ] | — | [Perfect Sum](./perfect-sum/README.md) | Mediumaccuracy | Medium | [Code](./perfect-sum/perfect-sum.java) | — | Difficulty: MediumAccuracy: 20.58%Submissions: 551K+Points: 4 |
 | - [ ] | — | [Rod Cutting](./Rod-Cutting/README.md) | Medium | Medium | [Code](./Rod-Cutting/rod-cutting.java) | — | Given a rod of length n and a 1-indexed array price where price[i] denotes the value of a piece of length i, determin... |
 | - [ ] | — | [Subset Sum](./Subset-Sum/README.md) | Mediumaccuracy | Medium | [Code](./Subset-Sum/subset-sum.java) | — | Difficulty: MediumAccuracy: 32.0%Submissions: 378K+Points: 4 |
@@ -356,6 +358,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 90 | [Subsets II](./90-subsets-ii/README.md) | Medium | Medium | [Code](./90-subsets-ii/subsets-ii.java) | [Link](https://leetcode.com/problems/subsets-ii) | Given an integer array nums that may contain duplicates, return all possible subsets (the power set) . |
 | - [ ] | 131 | [Palindrome Partitioning](./131-palindrome-partitioning/README.md) | Medium | High | [Code](./131-palindrome-partitioning/palindrome-partitioning.java) | [Link](https://leetcode.com/problems/palindrome-partitioning) | Given a string s , partition s such that every substring of the partition is a palindrome . Return all possible palin... |
 | - [ ] | 416 | [Partition Equal Subset Sum](./416-partition-equal-subset-sum/README.md) | Medium | High | [Code](./416-partition-equal-subset-sum/partition-equal-subset-sum.java) | [Link](https://leetcode.com/problems/partition-equal-subset-sum) | Given an integer array nums , return true if you can partition the array into two subsets such that the sum of the el... |
+| - [ ] | — | [Count Subsets with Sum](./Difficulty: Medium/Count Subsets with Sum/README.md) | Medium | Medium | [Code](./Difficulty: Medium/Count Subsets with Sum/count-subsets-with-sum.java) | [Link](https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1) | Given an array arr[] of non-negative integers and an integer target , the task is to count all subsets of the array w... |
 
 ## Greedy
 
