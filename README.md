@@ -35,7 +35,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 
 | Revise | # | Question | Difficulty | Importance | Local | LeetCode | Description |
 |---|---:|---|---|---|---|---|---|
-| - [ ] | 1 | [Two Sum](./1-two-sum/README.md) | Easy | High | [Code](./1-two-sum/two-sum.java) | [Link](https://leetcode.com/problems/two-sum) | Given an array of integers nums and an integer target , return indices of the two numbers such that they add up to ta... |
+| - [ ] | 1 | [Two Sum](./1-two-sum/README.md) | Easy | High | [Code](./1-two-sum/two-sum.java) | [Link](https://leetcode.com/problems/two-sum) | You are given an array of integers nums and an integer target , return indices of the two numbers such that they add... |
 | - [ ] | 14 | [Longest Common Prefix](./14-longest-common-prefix/README.md) | Easy | Medium | [Code](./14-longest-common-prefix/longest-common-prefix.java) | [Link](https://leetcode.com/problems/longest-common-prefix) | Write a function to find the longest common prefix string amongst an array of strings. |
 | - [ ] | 15 | [3Sum](./15-3sum/README.md) | Medium | High | [Code](./15-3sum/3sum.java) | [Link](https://leetcode.com/problems/3sum) | Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j , i != k , and j !=... |
 | - [ ] | 26 | [Remove Duplicates from Sorted Array](./26-remove-duplicates-from-sorted-array/README.md) | Easy | Medium | [Code](./26-remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.java) | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | Given an integer array nums sorted in non-decreasing order , remove the duplicates in-place such that each unique ele... |
@@ -131,7 +131,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 
 | Revise | # | Question | Difficulty | Importance | Local | LeetCode | Description |
 |---|---:|---|---|---|---|---|---|
-| - [ ] | 1 | [Two Sum](./1-two-sum/README.md) | Easy | High | [Code](./1-two-sum/two-sum.java) | [Link](https://leetcode.com/problems/two-sum) | Given an array of integers nums and an integer target , return indices of the two numbers such that they add up to ta... |
+| - [ ] | 1 | [Two Sum](./1-two-sum/README.md) | Easy | High | [Code](./1-two-sum/two-sum.java) | [Link](https://leetcode.com/problems/two-sum) | You are given an array of integers nums and an integer target , return indices of the two numbers such that they add... |
 | - [ ] | 33 | [Search in Rotated Sorted Array](./33-search-in-rotated-sorted-array/README.md) | Medium | Medium | [Code](./33-search-in-rotated-sorted-array/search-in-rotated-sorted-array.c) | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array) | There is an integer array nums sorted in ascending order (with distinct values). |
 | - [ ] | 39 | [Combination Sum](./39-combination-sum/README.md) | Medium | Medium | [Code](./39-combination-sum/combination-sum.java) | [Link](https://leetcode.com/problems/combination-sum) | Given an array of distinct integers candidates and a target integer target , return a list of all unique combinations... |
 | - [ ] | 46 | [Permutations](./46-permutations/README.md) | Medium | Medium | [Code](./46-permutations/permutations.java) | [Link](https://leetcode.com/problems/permutations) | Given an array nums of distinct integers, return all the possible permutations . You can return the answer in any ord... |
@@ -151,7 +151,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 
 | Revise | # | Question | Difficulty | Importance | Local | LeetCode | Description |
 |---|---:|---|---|---|---|---|---|
-| - [ ] | 1 | [Two Sum](./1-two-sum/README.md) | Easy | High | [Code](./1-two-sum/two-sum.java) | [Link](https://leetcode.com/problems/two-sum) | Given an array of integers nums and an integer target , return indices of the two numbers such that they add up to ta... |
+| - [ ] | 1 | [Two Sum](./1-two-sum/README.md) | Easy | High | [Code](./1-two-sum/two-sum.java) | [Link](https://leetcode.com/problems/two-sum) | You are given an array of integers nums and an integer target , return indices of the two numbers such that they add... |
 | - [ ] | 9 | [Palindrome Number](./9-palindrome-number/README.md) | Easy | Medium | [Code](./9-palindrome-number/palindrome-number.java) | [Link](https://leetcode.com/problems/palindrome-number) | Given an integer x , return true if x is a palindrome , and false otherwise. |
 | - [ ] | 15 | [3Sum](./15-3sum/README.md) | Medium | High | [Code](./15-3sum/3sum.java) | [Link](https://leetcode.com/problems/3sum) | Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j , i != k , and j !=... |
 | - [ ] | 26 | [Remove Duplicates from Sorted Array](./26-remove-duplicates-from-sorted-array/README.md) | Easy | Medium | [Code](./26-remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.java) | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | Given an integer array nums sorted in non-decreasing order , remove the duplicates in-place such that each unique ele... |
