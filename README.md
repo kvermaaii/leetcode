@@ -5,12 +5,12 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 161
+**Total questions indexed:** 162
 
 
 ## Topic Index
 
-- [Arrays](#arrays) (92)
+- [Arrays](#arrays) (93)
 - [Hashing](#hashing) (15)
 - [Two Pointers](#two-pointers) (10)
 - [Sliding Window](#sliding-window) (12)
@@ -26,7 +26,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 - [Dynamic Programming](#dynamic-programming) (16)
 - [Backtracking](#backtracking) (9)
 - [Greedy](#greedy) (3)
-- [Strings](#strings) (23)
+- [Strings](#strings) (24)
 - [Bit Manipulation](#bit-manipulation) (7)
 - [Math](#math) (6)
 - [Design](#design) (8)
@@ -43,6 +43,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 39 | [Combination Sum](./39-combination-sum/README.md) | Medium | Medium | [Code](./39-combination-sum/combination-sum.java) | [Link](https://leetcode.com/problems/combination-sum) | Given an array of distinct integers candidates and a target integer target , return a list of all unique combinations... |
 | - [ ] | 40 | [Combination Sum II](./40-combination-sum-ii/README.md) | Medium | Medium | [Code](./40-combination-sum-ii/combination-sum-ii.java) | [Link](https://leetcode.com/problems/combination-sum-ii) | Given a collection of candidate numbers ( candidates ) and a target number ( target ), find all unique combinations i... |
 | - [ ] | 46 | [Permutations](./46-permutations/README.md) | Medium | Medium | [Code](./46-permutations/permutations.java) | [Link](https://leetcode.com/problems/permutations) | Given an array nums of distinct integers, return all the possible permutations . You can return the answer in any ord... |
+| - [ ] | 49 | [Group Anagrams](./49-group-anagrams/README.md) | Medium | Medium | [Code](./49-group-anagrams/group-anagrams.java) | [Link](https://leetcode.com/problems/group-anagrams) | Given an array of strings strs , group the anagrams together. You can return the answer in any order . |
 | - [ ] | 53 | [Maximum Subarray](./53-maximum-subarray/README.md) | Medium | High | [Code](./53-maximum-subarray/maximum-subarray.java) | [Link](https://leetcode.com/problems/maximum-subarray) | Given an integer array nums , find the subarray with the largest sum, and return its sum . |
 | - [ ] | 63 | [Unique Paths II](./63-unique-paths-ii/README.md) | Medium | Medium | [Code](./63-unique-paths-ii/unique-paths-ii.java) | [Link](https://leetcode.com/problems/unique-paths-ii) | You are given an m x n integer array grid . There is a robot initially located at the top-left corner (i.e., grid[0][... |
 | - [ ] | 64 | [Minimum Path Sum](./64-minimum-path-sum/README.md) | Medium | Medium | [Code](./64-minimum-path-sum/minimum-path-sum.java) | [Link](https://leetcode.com/problems/minimum-path-sum) | Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right, which minimizes the s... |
@@ -382,6 +383,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 13 | [Roman to Integer](./13-roman-to-integer/README.md) | Easy | Medium | [Code](./13-roman-to-integer/roman-to-integer.java) | [Link](https://leetcode.com/problems/roman-to-integer) | Roman numerals are represented by seven different symbols: I , V , X , L , C , D and M . |
 | - [ ] | 14 | [Longest Common Prefix](./14-longest-common-prefix/README.md) | Easy | Medium | [Code](./14-longest-common-prefix/longest-common-prefix.java) | [Link](https://leetcode.com/problems/longest-common-prefix) | Write a function to find the longest common prefix string amongst an array of strings. |
 | - [ ] | 20 | [Valid Parentheses](./20-valid-parentheses/README.md) | Easy | High | [Code](./20-valid-parentheses/valid-parentheses.java) | [Link](https://leetcode.com/problems/valid-parentheses) | Given a string s containing just the characters '(' , ')' , '{' , '}' , '[' and ']' , determine if the input string i... |
+| - [ ] | 49 | [Group Anagrams](./49-group-anagrams/README.md) | Medium | Medium | [Code](./49-group-anagrams/group-anagrams.java) | [Link](https://leetcode.com/problems/group-anagrams) | Given an array of strings strs , group the anagrams together. You can return the answer in any order . |
 | - [ ] | 131 | [Palindrome Partitioning](./131-palindrome-partitioning/README.md) | Medium | High | [Code](./131-palindrome-partitioning/palindrome-partitioning.java) | [Link](https://leetcode.com/problems/palindrome-partitioning) | Given a string s , partition s such that every substring of the partition is a palindrome . Return all possible palin... |
 | - [ ] | 151 | [Reverse Words in a String](./151-reverse-words-in-a-string/README.md) | Medium | Medium | [Code](./151-reverse-words-in-a-string/reverse-words-in-a-string.java) | [Link](https://leetcode.com/problems/reverse-words-in-a-string) | Given an input string s , reverse the order of the words . |
 | - [ ] | 234 | [Palindrome Linked List](./234-palindrome-linked-list/README.md) | Easy | Medium | [Code](./234-palindrome-linked-list/palindrome-linked-list.java) | [Link](https://leetcode.com/problems/palindrome-linked-list) | Given the head of a singly linked list, return true if it is a palindrome or false otherwise . |
