@@ -5,12 +5,12 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 160
+**Total questions indexed:** 161
 
 
 ## Topic Index
 
-- [Arrays](#arrays) (91)
+- [Arrays](#arrays) (92)
 - [Hashing](#hashing) (15)
 - [Two Pointers](#two-pointers) (10)
 - [Sliding Window](#sliding-window) (12)
@@ -59,6 +59,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 169 | [Majority Element](./169-majority-element/README.md) | Easy | High | [Code](./169-majority-element/majority-element.java) | [Link](https://leetcode.com/problems/majority-element) | Given an array nums of size n , return the majority element . |
 | - [ ] | 209 | [Minimum Size Subarray Sum](./209-minimum-size-subarray-sum/README.md) | Medium | High | [Code](./209-minimum-size-subarray-sum/minimum-size-subarray-sum.java) | [Link](https://leetcode.com/problems/minimum-size-subarray-sum) | Given an array of positive integers nums and a positive integer target , return the minimal length of a subarray whos... |
 | - [ ] | 215 | [Kth Largest Element in an Array](./215-kth-largest-element-in-an-array/README.md) | Medium | High | [Code](./215-kth-largest-element-in-an-array/kth-largest-element-in-an-array.java) | [Link](https://leetcode.com/problems/kth-largest-element-in-an-array) | Given an integer array nums and an integer k , return the k th largest element in the array . |
+| - [ ] | 238 | [Product of Array Except Self](./238-product-of-array-except-self/README.md) | Medium | Medium | [Code](./238-product-of-array-except-self/product-of-array-except-self.java) | [Link](https://leetcode.com/problems/product-of-array-except-self) | Given an integer array nums , return an array answer such that answer[i] is equal to the product of all the elements... |
 | - [ ] | 239 | [Sliding Window Maximum](./239-sliding-window-maximum/README.md) | Hard | High | [Code](./239-sliding-window-maximum/sliding-window-maximum.java) | [Link](https://leetcode.com/problems/sliding-window-maximum) | You are given an array of integers nums , there is a sliding window of size k which is moving from the very left of t... |
 | - [ ] | 322 | [Coin Change](./322-coin-change/README.md) | Medium | High | [Code](./322-coin-change/coin-change.java) | [Link](https://leetcode.com/problems/coin-change) | You are given an integer array coins representing coins of different denominations and an integer amount representing... |
 | - [ ] | 347 | [Top K Frequent Elements](./347-top-k-frequent-elements/README.md) | Medium | High | [Code](./347-top-k-frequent-elements/top-k-frequent-elements.java) | [Link](https://leetcode.com/problems/top-k-frequent-elements) | Given an integer array nums and an integer k , return the k most frequent elements . You may return the answer in any... |
