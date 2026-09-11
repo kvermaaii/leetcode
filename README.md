@@ -5,13 +5,13 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 162
+**Total questions indexed:** 163
 
 
 ## Topic Index
 
-- [Arrays](#arrays) (93)
-- [Hashing](#hashing) (15)
+- [Arrays](#arrays) (94)
+- [Hashing](#hashing) (16)
 - [Two Pointers](#two-pointers) (10)
 - [Sliding Window](#sliding-window) (12)
 - [Prefix Sum](#prefix-sum) (3)
@@ -89,6 +89,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 2576 | [Minimum Penalty for a Shop](./2576-minimum-penalty-for-a-shop/README.md) | Medium | Medium | [Code](./2576-minimum-penalty-for-a-shop/minimum-penalty-for-a-shop.java) | [Link](https://leetcode.com/problems/minimum-penalty-for-a-shop) | You are given the customer visit log of a shop represented by a 0-indexed string customers consisting only of charact... |
 | - [ ] | 2598 | [Shortest Distance to Target String in a Circular Array](./2598-shortest-distance-to-target-string-in-a-circular-array/README.md) | Easy | Medium | [Code](./2598-shortest-distance-to-target-string-in-a-circular-array/shortest-distance-to-target-string-in-a-circular-array.java) | [Link](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array) | You are given a 0-indexed circular string array words and a string target . A circular array means that the array's e... |
 | - [ ] | 3219 | [Make Lexicographically Smallest Array by Swapping Elements](./3219-make-lexicographically-smallest-array-by-swapping-elements/README.md) | Medium | Low | [Code](./3219-make-lexicographically-smallest-array-by-swapping-elements/make-lexicographically-smallest-array-by-swapping-elements.java) | [Link](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements) | You are given a 0-indexed array of positive integers nums and a positive integer limit . |
+| - [ ] | 3799 | [Unique 3-Digit Even Numbers](./3799-unique-3-digit-even-numbers/README.md) | Easy | Low | [Code](./3799-unique-3-digit-even-numbers/unique-3-digit-even-numbers.java) | [Link](https://leetcode.com/problems/unique-3-digit-even-numbers) | You are given an array of digits called digits . Your task is to determine the number of distinct three-digit even nu... |
 | - [ ] | 3936 | [Split Array by Prime Indices](./3936-split-array-by-prime-indices/README.md) | Medium | Low | [Code](./3936-split-array-by-prime-indices/split-array-by-prime-indices.java) | [Link](https://leetcode.com/problems/split-array-by-prime-indices) | You are given an integer array nums . |
 | - [ ] | 3950 | [Maximum K to Sort a Permutation](./3950-maximum-k-to-sort-a-permutation/README.md) | Medium | Low | [Code](./3950-maximum-k-to-sort-a-permutation/maximum-k-to-sort-a-permutation.java) | [Link](https://leetcode.com/problems/maximum-k-to-sort-a-permutation) | You are given an integer array nums of length n , where nums is a permutation of the numbers in the range [0..n - 1] . |
 | - [ ] | 3979 | [Partition Array Into K-Distinct Groups](./3979-partition-array-into-k-distinct-groups/README.md) | Medium | Low | [Code](./3979-partition-array-into-k-distinct-groups/partition-array-into-k-distinct-groups.java) | [Link](https://leetcode.com/problems/partition-array-into-k-distinct-groups) | You are given an integer array nums and an integer k . |
@@ -142,6 +143,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 340 | [Longest Substring with At Most K Distinct Characters](./340-longest-substring-with-at-most-k-distinct-characters/README.md) | Medium | Medium | [Code](./340-longest-substring-with-at-most-k-distinct-characters/longest-substring-with-at-most-k-distinct-characters.java) | [Link](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters) | Given a string s and an integer k , return the length of the longest substring of s that contains at most k distinct... |
 | - [ ] | 653 | [Two Sum IV - Input is a BST](./653-two-sum-iv-input-is-a-bst/README.md) | Easy | Medium | [Code](./653-two-sum-iv-input-is-a-bst/two-sum-iv-input-is-a-bst.java) | [Link](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | Given the root of a binary search tree and an integer k , return true if there exist two elements in the BST such tha... |
 | - [ ] | 2552 | [Maximum Sum of Distinct Subarrays With Length K](./2552-maximum-sum-of-distinct-subarrays-with-length-k/README.md) | Medium | Medium | [Code](./2552-maximum-sum-of-distinct-subarrays-with-length-k/maximum-sum-of-distinct-subarrays-with-length-k.java) | [Link](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k) | You are given an integer array nums and an integer k . Find the maximum subarray sum of all the subarrays of nums tha... |
+| - [ ] | 3799 | [Unique 3-Digit Even Numbers](./3799-unique-3-digit-even-numbers/README.md) | Easy | Low | [Code](./3799-unique-3-digit-even-numbers/unique-3-digit-even-numbers.java) | [Link](https://leetcode.com/problems/unique-3-digit-even-numbers) | You are given an array of digits called digits . Your task is to determine the number of distinct three-digit even nu... |
 | - [ ] | 3979 | [Partition Array Into K-Distinct Groups](./3979-partition-array-into-k-distinct-groups/README.md) | Medium | Low | [Code](./3979-partition-array-into-k-distinct-groups/partition-array-into-k-distinct-groups.java) | [Link](https://leetcode.com/problems/partition-array-into-k-distinct-groups) | You are given an integer array nums and an integer k . |
 | - [ ] | 4071 | [Word Squares II](./4071-word-squares-ii/README.md) | Medium | Low | [Code](./4071-word-squares-ii/word-squares-ii.java) | [Link](https://leetcode.com/problems/word-squares-ii) | You are given a string array words , consisting of distinct 4-letter strings, each containing lowercase English letters. |
 | - [ ] | 4162 | [Minimum Number of Operations to Have Distinct Elements](./4162-minimum-number-of-operations-to-have-distinct-elements/README.md) | Medium | Low | [Code](./4162-minimum-number-of-operations-to-have-distinct-elements/minimum-number-of-operations-to-have-distinct-elements.java) | [Link](https://leetcode.com/problems/minimum-number-of-operations-to-have-distinct-elements) | You are given an integer array nums . |
