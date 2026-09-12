@@ -1,29 +1,36 @@
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
-        int minV = Integer.MAX_VALUE;
-        int maxV = Integer.MIN_VALUE;
-        for(int n: nums){
-            minV = Math.min(minV,n);
-            maxV = Math.max(maxV,n);
+        Map<Integer, Integer> map = new HashMap<>();
+        int n = nums.length;
+        for(int i = 0; i< n; i++){
+            map.put(nums[i], map.getOrDefault(nums[i],0)+1);
         }
-        int[] freq = new int[maxV+1-minV];
-        for(int n: nums){
-            freq[n-minV]++;
+        List<List<Integer>> buckets = new ArrayList<>(n+1);
+        for (int i = 0; i <= n; i++) {
+            buckets.add(new ArrayList<>());
         }
-        int index=0;
-        int[] arr = new int[k];
-        while(k > 0){
-            int maxFreq = -1; // Reset maxFreq for each iteration
-            for (int i = 0; i < maxV + 1 - minV; i++) {
-                if (freq[i] > maxFreq) {
-                    maxFreq = freq[i];
-                    index = i;
+        for(int key : map.keySet()){
+            int freq = map.get(key);
+            if(buckets.get(freq) != null){
+                buckets.get(freq).add(key);
+            }else{
+                List<Integer> li = new ArrayList<>();
+                li.add(key);
+                buckets.set(freq,li);
+            }
+        }
+        List<Integer> result = new ArrayList<>();
+        for(int i = n; i >= 0; i--){
+            if(buckets.get(i) != null){
+                for(int no : buckets.get(i)){
+                    result.add(no);
                 }
             }
-            k--;
-            arr[k] = index+minV;
-            freq[index] = Integer.MIN_VALUE;
+        } 
+        int[] ans = new int[k];
+        for(int i = 0; i < k; i++){
+            ans[i] = result.get(i);
         }
-        return arr;
+        return ans;
     }
 }
