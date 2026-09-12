@@ -5,18 +5,18 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 163
+**Total questions indexed:** 164
 
 
 ## Topic Index
 
-- [Arrays](#arrays) (94)
+- [Arrays](#arrays) (95)
 - [Hashing](#hashing) (16)
 - [Two Pointers](#two-pointers) (10)
 - [Sliding Window](#sliding-window) (12)
 - [Prefix Sum](#prefix-sum) (3)
-- [Binary Search](#binary-search) (12)
-- [Sorting / Ordering](#sorting--ordering) (17)
+- [Binary Search](#binary-search) (13)
+- [Sorting / Ordering](#sorting--ordering) (18)
 - [Stack / Monotonic Stack](#stack--monotonic-stack) (8)
 - [Queue / Deque](#queue--deque) (5)
 - [Heap / Priority Queue](#heap--priority-queue) (3)
@@ -56,6 +56,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 120 | [Triangle](./120-triangle/README.md) | Medium | Medium | [Code](./120-triangle/triangle.java) | [Link](https://leetcode.com/problems/triangle) | Given a triangle array, return the minimum path sum from top to bottom . |
 | - [ ] | 121 | [Best Time to Buy and Sell Stock](./121-best-time-to-buy-and-sell-stock/README.md) | Easy | Medium | [Code](./121-best-time-to-buy-and-sell-stock/best-time-to-buy-and-sell-stock.java) | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | You are given an array prices where prices[i] is the price of a given stock on the i th day. |
 | - [ ] | 124 | [Binary Tree Maximum Path Sum](./124-binary-tree-maximum-path-sum/README.md) | Hard | High | [Code](./124-binary-tree-maximum-path-sum/binary-tree-maximum-path-sum.java) | [Link](https://leetcode.com/problems/binary-tree-maximum-path-sum) | A path in a binary tree is a sequence of nodes where each pair of adjacent nodes in the sequence has an edge connecti... |
+| - [ ] | 128 | [Longest Consecutive Sequence](./128-longest-consecutive-sequence/README.md) | Medium | Medium | [Code](./128-longest-consecutive-sequence/longest-consecutive-sequence.java) | [Link](https://leetcode.com/problems/longest-consecutive-sequence) | Given an unsorted array of integers nums , return the length of the longest consecutive elements sequence. |
 | - [ ] | 155 | [Min Stack](./155-min-stack/README.md) | Medium | High | [Code](./155-min-stack/min-stack.java) | [Link](https://leetcode.com/problems/min-stack) | Design a stack that supports push, pop, top, and retrieving the minimum element in constant time. |
 | - [ ] | 169 | [Majority Element](./169-majority-element/README.md) | Easy | High | [Code](./169-majority-element/majority-element.java) | [Link](https://leetcode.com/problems/majority-element) | Given an array nums of size n , return the majority element . |
 | - [ ] | 209 | [Minimum Size Subarray Sum](./209-minimum-size-subarray-sum/README.md) | Medium | High | [Code](./209-minimum-size-subarray-sum/minimum-size-subarray-sum.java) | [Link](https://leetcode.com/problems/minimum-size-subarray-sum) | Given an array of positive integers nums and a positive integer target , return the minimal length of a subarray whos... |
@@ -199,6 +200,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 33 | [Search in Rotated Sorted Array](./33-search-in-rotated-sorted-array/README.md) | Medium | Medium | [Code](./33-search-in-rotated-sorted-array/search-in-rotated-sorted-array.c) | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array) | There is an integer array nums sorted in ascending order (with distinct values). |
 | - [ ] | 98 | [Validate Binary Search Tree](./98-validate-binary-search-tree/README.md) | Medium | High | [Code](./98-validate-binary-search-tree/validate-binary-search-tree.java) | [Link](https://leetcode.com/problems/validate-binary-search-tree) | Given the root of a binary tree, determine if it is a valid binary search tree (BST) . |
 | - [ ] | 108 | [Convert Sorted Array to Binary Search Tree](./108-convert-sorted-array-to-binary-search-tree/README.md) | Easy | Medium | [Code](./108-convert-sorted-array-to-binary-search-tree/convert-sorted-array-to-binary-search-tree.java) | [Link](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | Given an integer array nums where the elements are sorted in ascending order , convert it to a height-balanced binary... |
+| - [ ] | 128 | [Longest Consecutive Sequence](./128-longest-consecutive-sequence/README.md) | Medium | Medium | [Code](./128-longest-consecutive-sequence/longest-consecutive-sequence.java) | [Link](https://leetcode.com/problems/longest-consecutive-sequence) | Given an unsorted array of integers nums , return the length of the longest consecutive elements sequence. |
 | - [ ] | 173 | [Binary Search Tree Iterator](./173-binary-search-tree-iterator/README.md) | Medium | Medium | [Code](./173-binary-search-tree-iterator/binary-search-tree-iterator.java) | [Link](https://leetcode.com/problems/binary-search-tree-iterator) | Implement the BSTIterator class that represents an iterator over the in-order traversal of a binary search tree (BST): |
 | - [ ] | 230 | [Kth Smallest Element in a BST](./230-kth-smallest-element-in-a-bst/README.md) | Medium | High | [Code](./230-kth-smallest-element-in-a-bst/kth-smallest-element-in-a-bst.java) | [Link](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | Given the root of a binary search tree, and an integer k , return the k th smallest value ( 1-indexed ) of all the va... |
 | - [ ] | 540 | [Single Element in a Sorted Array](./540-single-element-in-a-sorted-array/README.md) | Medium | Medium | [Code](./540-single-element-in-a-sorted-array/single-element-in-a-sorted-array.java) | [Link](https://leetcode.com/problems/single-element-in-a-sorted-array) | You are given a sorted array consisting of only integers where every element appears exactly twice, except for one el... |
@@ -218,6 +220,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 46 | [Permutations](./46-permutations/README.md) | Medium | Medium | [Code](./46-permutations/permutations.java) | [Link](https://leetcode.com/problems/permutations) | Given an array nums of distinct integers, return all the possible permutations . You can return the answer in any ord... |
 | - [ ] | 60 | [Permutation Sequence](./60-permutation-sequence/README.md) | Hard | High | [Code](./60-permutation-sequence/permutation-sequence.java) | [Link](https://leetcode.com/problems/permutation-sequence) | The set [1, 2, 3, ..., n] contains a total of n! unique permutations. |
 | - [ ] | 108 | [Convert Sorted Array to Binary Search Tree](./108-convert-sorted-array-to-binary-search-tree/README.md) | Easy | Medium | [Code](./108-convert-sorted-array-to-binary-search-tree/convert-sorted-array-to-binary-search-tree.java) | [Link](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | Given an integer array nums where the elements are sorted in ascending order , convert it to a height-balanced binary... |
+| - [ ] | 128 | [Longest Consecutive Sequence](./128-longest-consecutive-sequence/README.md) | Medium | Medium | [Code](./128-longest-consecutive-sequence/longest-consecutive-sequence.java) | [Link](https://leetcode.com/problems/longest-consecutive-sequence) | Given an unsorted array of integers nums , return the length of the longest consecutive elements sequence. |
 | - [ ] | 215 | [Kth Largest Element in an Array](./215-kth-largest-element-in-an-array/README.md) | Medium | High | [Code](./215-kth-largest-element-in-an-array/kth-largest-element-in-an-array.java) | [Link](https://leetcode.com/problems/kth-largest-element-in-an-array) | Given an integer array nums and an integer k , return the k th largest element in the array . |
 | - [ ] | 230 | [Kth Smallest Element in a BST](./230-kth-smallest-element-in-a-bst/README.md) | Medium | High | [Code](./230-kth-smallest-element-in-a-bst/kth-smallest-element-in-a-bst.java) | [Link](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | Given the root of a binary search tree, and an integer k , return the k th smallest value ( 1-indexed ) of all the va... |
 | - [ ] | 347 | [Top K Frequent Elements](./347-top-k-frequent-elements/README.md) | Medium | High | [Code](./347-top-k-frequent-elements/top-k-frequent-elements.java) | [Link](https://leetcode.com/problems/top-k-frequent-elements) | Given an integer array nums and an integer k , return the k most frequent elements . You may return the answer in any... |
