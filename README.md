@@ -5,12 +5,12 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 165
+**Total questions indexed:** 166
 
 
 ## Topic Index
 
-- [Arrays](#arrays) (96)
+- [Arrays](#arrays) (97)
 - [Hashing](#hashing) (16)
 - [Two Pointers](#two-pointers) (10)
 - [Sliding Window](#sliding-window) (12)
@@ -45,6 +45,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 46 | [Permutations](./46-permutations/README.md) | Medium | Medium | [Code](./46-permutations/permutations.java) | [Link](https://leetcode.com/problems/permutations) | Given an array nums of distinct integers, return all the possible permutations . You can return the answer in any ord... |
 | - [ ] | 49 | [Group Anagrams](./49-group-anagrams/README.md) | Medium | Medium | [Code](./49-group-anagrams/group-anagrams.java) | [Link](https://leetcode.com/problems/group-anagrams) | Given an array of strings strs , group the anagrams together. You can return the answer in any order . |
 | - [ ] | 53 | [Maximum Subarray](./53-maximum-subarray/README.md) | Medium | High | [Code](./53-maximum-subarray/maximum-subarray.java) | [Link](https://leetcode.com/problems/maximum-subarray) | Given an integer array nums , find the subarray with the largest sum, and return its sum . |
+| - [ ] | 56 | [Merge Intervals](./56-merge-intervals/README.md) | Medium | Medium | — | [Link](https://leetcode.com/problems/merge-intervals) | Given an array of intervals where intervals[i] = [start i , end i ] , merge all overlapping intervals, and return an... |
 | - [ ] | 63 | [Unique Paths II](./63-unique-paths-ii/README.md) | Medium | Medium | [Code](./63-unique-paths-ii/unique-paths-ii.java) | [Link](https://leetcode.com/problems/unique-paths-ii) | You are given an m x n integer array grid . There is a robot initially located at the top-left corner (i.e., grid[0][... |
 | - [ ] | 64 | [Minimum Path Sum](./64-minimum-path-sum/README.md) | Medium | Medium | [Code](./64-minimum-path-sum/minimum-path-sum.java) | [Link](https://leetcode.com/problems/minimum-path-sum) | Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right, which minimizes the s... |
 | - [ ] | 78 | [Subsets](./78-subsets/README.md) | Medium | Medium | [Code](./78-subsets/subsets.java) | [Link](https://leetcode.com/problems/subsets) | Given an integer array nums of unique elements, return all possible subsets (the power set) . |
