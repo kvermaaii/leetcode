@@ -1,5 +1,6 @@
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
+        //this solution is in constant memory
         int n = nums.length;
         List<List<Integer>> answer = new ArrayList<>();
         Arrays.sort(nums);
