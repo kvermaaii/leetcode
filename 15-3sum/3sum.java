@@ -1,28 +1,34 @@
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-        int l = nums.length;
-        Set<List<Integer>> set = new HashSet<>();
+        int n = nums.length;
+        List<List<Integer>> answer = new ArrayList<>();
         Arrays.sort(nums);
-        for(int i =0; i < l - 2; i++){
-            for(int j = i+1; j< l - 1; j++){
-                int target = - (nums[i] + nums[j]);
-                int f = find(nums, target, j + 1, l - 1);
-                if(f != -1){
-                    set.add(Arrays.asList(nums[i], nums[j], nums[f]));
+        for(int i = 0; i < n-2; i++){
+            if(i != 0 && nums[i] == nums[i-1]) continue;
+            int target = -nums[i];
+            int start = i+1; 
+            int end = nums.length - 1;
+            System.out.println(nums[i]);
+            while(start < end){
+                if(start != i+1 && nums[start] == nums[start-1]){
+                    start++;
+                    continue;
                 }
-            }
+                int n1 = nums[start];
+                int n2 = target - n1;
+                while(start + 1 < end && nums[end] > n2){
+                    end--;
+                }
+                if(nums[end] == n2){
+                    List<Integer> list = new ArrayList<>();
+                    list.add(nums[i]);
+                    list.add(nums[start]);
+                    list.add(nums[end]);
+                    answer.add(list);
+                }
+                start++;
+            } 
         }
-        return new ArrayList<>(set);
-    }
-    public int find(int[] nums, int target, int start, int end){
-        if(start > end) return -1;
-        int mid = start + (end - start)/2;
-        if(target > nums[mid]){
-            return find(nums,target,mid+1,end);
-        } else if(target < nums[mid]){
-            return find(nums,target,start,mid-1);
-        } else{
-            return mid;
-        }
+        return answer;
     }
 }
