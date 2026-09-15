@@ -5,14 +5,14 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 166
+**Total questions indexed:** 167
 
 
 ## Topic Index
 
 - [Arrays](#arrays) (97)
 - [Hashing](#hashing) (16)
-- [Two Pointers](#two-pointers) (10)
+- [Two Pointers](#two-pointers) (11)
 - [Sliding Window](#sliding-window) (12)
 - [Prefix Sum](#prefix-sum) (3)
 - [Binary Search](#binary-search) (13)
@@ -26,7 +26,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 - [Dynamic Programming](#dynamic-programming) (16)
 - [Backtracking](#backtracking) (9)
 - [Greedy](#greedy) (3)
-- [Strings](#strings) (24)
+- [Strings](#strings) (25)
 - [Bit Manipulation](#bit-manipulation) (7)
 - [Math](#math) (6)
 - [Design](#design) (8)
@@ -162,6 +162,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 9 | [Palindrome Number](./9-palindrome-number/README.md) | Easy | Medium | [Code](./9-palindrome-number/palindrome-number.java) | [Link](https://leetcode.com/problems/palindrome-number) | Given an integer x , return true if x is a palindrome , and false otherwise. |
 | - [ ] | 15 | [3Sum](./15-3sum/README.md) | Medium | High | [Code](./15-3sum/3sum.java) | [Link](https://leetcode.com/problems/3sum) | Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j , i != k , and j !=... |
 | - [ ] | 26 | [Remove Duplicates from Sorted Array](./26-remove-duplicates-from-sorted-array/README.md) | Easy | Medium | [Code](./26-remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.java) | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | Given an integer array nums sorted in non-decreasing order , remove the duplicates in-place such that each unique ele... |
+| - [ ] | 125 | [Valid Palindrome](./125-valid-palindrome/README.md) | Easy | Medium | [Code](./125-valid-palindrome/valid-palindrome.java) | [Link](https://leetcode.com/problems/valid-palindrome) | A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alpha... |
 | - [ ] | 131 | [Palindrome Partitioning](./131-palindrome-partitioning/README.md) | Medium | High | [Code](./131-palindrome-partitioning/palindrome-partitioning.java) | [Link](https://leetcode.com/problems/palindrome-partitioning) | Given a string s , partition s such that every substring of the partition is a palindrome . Return all possible palin... |
 | - [ ] | 151 | [Reverse Words in a String](./151-reverse-words-in-a-string/README.md) | Medium | Medium | [Code](./151-reverse-words-in-a-string/reverse-words-in-a-string.java) | [Link](https://leetcode.com/problems/reverse-words-in-a-string) | Given an input string s , reverse the order of the words . |
 | - [ ] | 160 | [Intersection of Two Linked Lists](./160-intersection-of-two-linked-lists/README.md) | Easy | High | [Code](./160-intersection-of-two-linked-lists/intersection-of-two-linked-lists.java) | [Link](https://leetcode.com/problems/intersection-of-two-linked-lists) | Given the heads of two singly linked-lists headA and headB , return the node at which the two lists intersect . If th... |
@@ -391,6 +392,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 14 | [Longest Common Prefix](./14-longest-common-prefix/README.md) | Easy | Medium | [Code](./14-longest-common-prefix/longest-common-prefix.java) | [Link](https://leetcode.com/problems/longest-common-prefix) | Write a function to find the longest common prefix string amongst an array of strings. |
 | - [ ] | 20 | [Valid Parentheses](./20-valid-parentheses/README.md) | Easy | High | [Code](./20-valid-parentheses/valid-parentheses.java) | [Link](https://leetcode.com/problems/valid-parentheses) | Given a string s containing just the characters '(' , ')' , '{' , '}' , '[' and ']' , determine if the input string i... |
 | - [ ] | 49 | [Group Anagrams](./49-group-anagrams/README.md) | Medium | Medium | [Code](./49-group-anagrams/group-anagrams.java) | [Link](https://leetcode.com/problems/group-anagrams) | Given an array of strings strs , group the anagrams together. You can return the answer in any order . |
+| - [ ] | 125 | [Valid Palindrome](./125-valid-palindrome/README.md) | Easy | Medium | [Code](./125-valid-palindrome/valid-palindrome.java) | [Link](https://leetcode.com/problems/valid-palindrome) | A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alpha... |
 | - [ ] | 131 | [Palindrome Partitioning](./131-palindrome-partitioning/README.md) | Medium | High | [Code](./131-palindrome-partitioning/palindrome-partitioning.java) | [Link](https://leetcode.com/problems/palindrome-partitioning) | Given a string s , partition s such that every substring of the partition is a palindrome . Return all possible palin... |
 | - [ ] | 151 | [Reverse Words in a String](./151-reverse-words-in-a-string/README.md) | Medium | Medium | [Code](./151-reverse-words-in-a-string/reverse-words-in-a-string.java) | [Link](https://leetcode.com/problems/reverse-words-in-a-string) | Given an input string s , reverse the order of the words . |
 | - [ ] | 234 | [Palindrome Linked List](./234-palindrome-linked-list/README.md) | Easy | Medium | [Code](./234-palindrome-linked-list/palindrome-linked-list.java) | [Link](https://leetcode.com/problems/palindrome-linked-list) | Given the head of a singly linked list, return true if it is a palindrome or false otherwise . |
