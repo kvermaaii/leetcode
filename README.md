@@ -5,7 +5,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 169
+**Total questions indexed:** 170
 
 
 ## Topic Index
@@ -26,7 +26,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 - [Dynamic Programming](#dynamic-programming) (16)
 - [Backtracking](#backtracking) (9)
 - [Greedy](#greedy) (3)
-- [Strings](#strings) (25)
+- [Strings](#strings) (26)
 - [Bit Manipulation](#bit-manipulation) (7)
 - [Math](#math) (6)
 - [Design](#design) (8)
@@ -400,6 +400,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 151 | [Reverse Words in a String](./151-reverse-words-in-a-string/README.md) | Medium | Medium | [Code](./151-reverse-words-in-a-string/reverse-words-in-a-string.java) | [Link](https://leetcode.com/problems/reverse-words-in-a-string) | Given an input string s , reverse the order of the words . |
 | - [ ] | 234 | [Palindrome Linked List](./234-palindrome-linked-list/README.md) | Easy | Medium | [Code](./234-palindrome-linked-list/palindrome-linked-list.java) | [Link](https://leetcode.com/problems/palindrome-linked-list) | Given the head of a singly linked list, return true if it is a palindrome or false otherwise . |
 | - [ ] | 340 | [Longest Substring with At Most K Distinct Characters](./340-longest-substring-with-at-most-k-distinct-characters/README.md) | Medium | Medium | [Code](./340-longest-substring-with-at-most-k-distinct-characters/longest-substring-with-at-most-k-distinct-characters.java) | [Link](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters) | Given a string s and an integer k , return the length of the longest substring of s that contains at most k distinct... |
+| - [ ] | 424 | [Longest Repeating Character Replacement](./424-longest-repeating-character-replacement/README.md) | Medium | Medium | [Code](./424-longest-repeating-character-replacement/longest-repeating-character-replacement.java) | [Link](https://leetcode.com/problems/longest-repeating-character-replacement) | You are given a string s and an integer k . You can choose any character of the string and change it to any other upp... |
 | - [ ] | 686 | [Repeated String Match](./686-repeated-string-match/README.md) | Medium | Medium | [Code](./686-repeated-string-match/repeated-string-match.java) | [Link](https://leetcode.com/problems/repeated-string-match) | Given two strings a and b , return the minimum number of times you should repeat string a so that string b is a subst... |
 | - [ ] | 2576 | [Minimum Penalty for a Shop](./2576-minimum-penalty-for-a-shop/README.md) | Medium | Medium | [Code](./2576-minimum-penalty-for-a-shop/minimum-penalty-for-a-shop.java) | [Link](https://leetcode.com/problems/minimum-penalty-for-a-shop) | You are given the customer visit log of a shop represented by a 0-indexed string customers consisting only of charact... |
 | - [ ] | 2598 | [Shortest Distance to Target String in a Circular Array](./2598-shortest-distance-to-target-string-in-a-circular-array/README.md) | Easy | Medium | [Code](./2598-shortest-distance-to-target-string-in-a-circular-array/shortest-distance-to-target-string-in-a-circular-array.java) | [Link](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array) | You are given a 0-indexed circular string array words and a string target . A circular array means that the array's e... |
