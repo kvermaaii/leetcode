@@ -5,18 +5,18 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 168
+**Total questions indexed:** 169
 
 
 ## Topic Index
 
-- [Arrays](#arrays) (98)
+- [Arrays](#arrays) (99)
 - [Hashing](#hashing) (16)
 - [Two Pointers](#two-pointers) (11)
 - [Sliding Window](#sliding-window) (12)
 - [Prefix Sum](#prefix-sum) (3)
 - [Binary Search](#binary-search) (13)
-- [Sorting / Ordering](#sorting--ordering) (18)
+- [Sorting / Ordering](#sorting--ordering) (19)
 - [Stack / Monotonic Stack](#stack--monotonic-stack) (8)
 - [Queue / Deque](#queue--deque) (5)
 - [Heap / Priority Queue](#heap--priority-queue) (3)
@@ -49,6 +49,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 56 | [Merge Intervals](./56-merge-intervals/README.md) | Medium | Medium | — | [Link](https://leetcode.com/problems/merge-intervals) | Given an array of intervals where intervals[i] = [start i , end i ] , merge all overlapping intervals, and return an... |
 | - [ ] | 63 | [Unique Paths II](./63-unique-paths-ii/README.md) | Medium | Medium | [Code](./63-unique-paths-ii/unique-paths-ii.java) | [Link](https://leetcode.com/problems/unique-paths-ii) | You are given an m x n integer array grid . There is a robot initially located at the top-left corner (i.e., grid[0][... |
 | - [ ] | 64 | [Minimum Path Sum](./64-minimum-path-sum/README.md) | Medium | Medium | [Code](./64-minimum-path-sum/minimum-path-sum.java) | [Link](https://leetcode.com/problems/minimum-path-sum) | Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right, which minimizes the s... |
+| - [ ] | 75 | [Sort Colors](./75-sort-colors/README.md) | Medium | Medium | [Code](./75-sort-colors/sort-colors.java) | [Link](https://leetcode.com/problems/sort-colors) | You are given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the sam... |
 | - [ ] | 78 | [Subsets](./78-subsets/README.md) | Medium | Medium | [Code](./78-subsets/subsets.java) | [Link](https://leetcode.com/problems/subsets) | Given an integer array nums of unique elements, return all possible subsets (the power set) . |
 | - [ ] | 90 | [Subsets II](./90-subsets-ii/README.md) | Medium | Medium | [Code](./90-subsets-ii/subsets-ii.java) | [Link](https://leetcode.com/problems/subsets-ii) | Given an integer array nums that may contain duplicates, return all possible subsets (the power set) . |
 | - [ ] | 104 | [Maximum Depth of Binary Tree](./104-maximum-depth-of-binary-tree/README.md) | Easy | High | [Code](./104-maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.java) | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree) | Given the root of a binary tree, return its maximum depth . |
@@ -223,6 +224,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 33 | [Search in Rotated Sorted Array](./33-search-in-rotated-sorted-array/README.md) | Medium | Medium | [Code](./33-search-in-rotated-sorted-array/search-in-rotated-sorted-array.c) | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array) | There is an integer array nums sorted in ascending order (with distinct values). |
 | - [ ] | 46 | [Permutations](./46-permutations/README.md) | Medium | Medium | [Code](./46-permutations/permutations.java) | [Link](https://leetcode.com/problems/permutations) | Given an array nums of distinct integers, return all the possible permutations . You can return the answer in any ord... |
 | - [ ] | 60 | [Permutation Sequence](./60-permutation-sequence/README.md) | Hard | High | [Code](./60-permutation-sequence/permutation-sequence.java) | [Link](https://leetcode.com/problems/permutation-sequence) | The set [1, 2, 3, ..., n] contains a total of n! unique permutations. |
+| - [ ] | 75 | [Sort Colors](./75-sort-colors/README.md) | Medium | Medium | [Code](./75-sort-colors/sort-colors.java) | [Link](https://leetcode.com/problems/sort-colors) | You are given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the sam... |
 | - [ ] | 108 | [Convert Sorted Array to Binary Search Tree](./108-convert-sorted-array-to-binary-search-tree/README.md) | Easy | Medium | [Code](./108-convert-sorted-array-to-binary-search-tree/convert-sorted-array-to-binary-search-tree.java) | [Link](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | Given an integer array nums where the elements are sorted in ascending order , convert it to a height-balanced binary... |
 | - [ ] | 128 | [Longest Consecutive Sequence](./128-longest-consecutive-sequence/README.md) | Medium | Medium | [Code](./128-longest-consecutive-sequence/longest-consecutive-sequence.java) | [Link](https://leetcode.com/problems/longest-consecutive-sequence) | Given an unsorted array of integers nums , return the length of the longest consecutive elements sequence. |
 | - [ ] | 215 | [Kth Largest Element in an Array](./215-kth-largest-element-in-an-array/README.md) | Medium | High | [Code](./215-kth-largest-element-in-an-array/kth-largest-element-in-an-array.java) | [Link](https://leetcode.com/problems/kth-largest-element-in-an-array) | Given an integer array nums and an integer k , return the k th largest element in the array . |
