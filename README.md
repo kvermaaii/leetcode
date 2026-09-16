@@ -5,7 +5,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 170
+**Total questions indexed:** 171
 
 
 ## Topic Index
@@ -16,7 +16,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 - [Sliding Window](#sliding-window) (12)
 - [Prefix Sum](#prefix-sum) (3)
 - [Binary Search](#binary-search) (13)
-- [Sorting / Ordering](#sorting--ordering) (19)
+- [Sorting / Ordering](#sorting--ordering) (20)
 - [Stack / Monotonic Stack](#stack--monotonic-stack) (8)
 - [Queue / Deque](#queue--deque) (5)
 - [Heap / Priority Queue](#heap--priority-queue) (3)
@@ -26,7 +26,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 - [Dynamic Programming](#dynamic-programming) (16)
 - [Backtracking](#backtracking) (9)
 - [Greedy](#greedy) (3)
-- [Strings](#strings) (26)
+- [Strings](#strings) (27)
 - [Bit Manipulation](#bit-manipulation) (7)
 - [Math](#math) (6)
 - [Design](#design) (8)
@@ -231,6 +231,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 230 | [Kth Smallest Element in a BST](./230-kth-smallest-element-in-a-bst/README.md) | Medium | High | [Code](./230-kth-smallest-element-in-a-bst/kth-smallest-element-in-a-bst.java) | [Link](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | Given the root of a binary search tree, and an integer k , return the k th smallest value ( 1-indexed ) of all the va... |
 | - [ ] | 347 | [Top K Frequent Elements](./347-top-k-frequent-elements/README.md) | Medium | High | [Code](./347-top-k-frequent-elements/top-k-frequent-elements.java) | [Link](https://leetcode.com/problems/top-k-frequent-elements) | Given an integer array nums and an integer k , return the k most frequent elements . You may return the answer in any... |
 | - [ ] | 540 | [Single Element in a Sorted Array](./540-single-element-in-a-sorted-array/README.md) | Medium | Medium | [Code](./540-single-element-in-a-sorted-array/single-element-in-a-sorted-array.java) | [Link](https://leetcode.com/problems/single-element-in-a-sorted-array) | You are given a sorted array consisting of only integers where every element appears exactly twice, except for one el... |
+| - [ ] | 567 | [Permutation in String](./567-permutation-in-string/README.md) | Medium | Medium | [Code](./567-permutation-in-string/permutation-in-string.java) | [Link](https://leetcode.com/problems/permutation-in-string) | Given two strings s1 and s2 , return true if s2 contains a permutation of s1 , or false otherwise. |
 | - [ ] | 789 | [Kth Largest Element in a Stream](./789-kth-largest-element-in-a-stream/README.md) | Easy | Medium | [Code](./789-kth-largest-element-in-a-stream/kth-largest-element-in-a-stream.java) | [Link](https://leetcode.com/problems/kth-largest-element-in-a-stream) | You are part of a university admissions office and need to keep track of the kth highest test score from applicants i... |
 | - [ ] | 3219 | [Make Lexicographically Smallest Array by Swapping Elements](./3219-make-lexicographically-smallest-array-by-swapping-elements/README.md) | Medium | Low | [Code](./3219-make-lexicographically-smallest-array-by-swapping-elements/make-lexicographically-smallest-array-by-swapping-elements.java) | [Link](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements) | You are given a 0-indexed array of positive integers nums and a positive integer limit . |
 | - [ ] | 3950 | [Maximum K to Sort a Permutation](./3950-maximum-k-to-sort-a-permutation/README.md) | Medium | Low | [Code](./3950-maximum-k-to-sort-a-permutation/maximum-k-to-sort-a-permutation.java) | [Link](https://leetcode.com/problems/maximum-k-to-sort-a-permutation) | You are given an integer array nums of length n , where nums is a permutation of the numbers in the range [0..n - 1] . |
@@ -401,6 +402,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 234 | [Palindrome Linked List](./234-palindrome-linked-list/README.md) | Easy | Medium | [Code](./234-palindrome-linked-list/palindrome-linked-list.java) | [Link](https://leetcode.com/problems/palindrome-linked-list) | Given the head of a singly linked list, return true if it is a palindrome or false otherwise . |
 | - [ ] | 340 | [Longest Substring with At Most K Distinct Characters](./340-longest-substring-with-at-most-k-distinct-characters/README.md) | Medium | Medium | [Code](./340-longest-substring-with-at-most-k-distinct-characters/longest-substring-with-at-most-k-distinct-characters.java) | [Link](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters) | Given a string s and an integer k , return the length of the longest substring of s that contains at most k distinct... |
 | - [ ] | 424 | [Longest Repeating Character Replacement](./424-longest-repeating-character-replacement/README.md) | Medium | Medium | [Code](./424-longest-repeating-character-replacement/longest-repeating-character-replacement.java) | [Link](https://leetcode.com/problems/longest-repeating-character-replacement) | You are given a string s and an integer k . You can choose any character of the string and change it to any other upp... |
+| - [ ] | 567 | [Permutation in String](./567-permutation-in-string/README.md) | Medium | Medium | [Code](./567-permutation-in-string/permutation-in-string.java) | [Link](https://leetcode.com/problems/permutation-in-string) | Given two strings s1 and s2 , return true if s2 contains a permutation of s1 , or false otherwise. |
 | - [ ] | 686 | [Repeated String Match](./686-repeated-string-match/README.md) | Medium | Medium | [Code](./686-repeated-string-match/repeated-string-match.java) | [Link](https://leetcode.com/problems/repeated-string-match) | Given two strings a and b , return the minimum number of times you should repeat string a so that string b is a subst... |
 | - [ ] | 2576 | [Minimum Penalty for a Shop](./2576-minimum-penalty-for-a-shop/README.md) | Medium | Medium | [Code](./2576-minimum-penalty-for-a-shop/minimum-penalty-for-a-shop.java) | [Link](https://leetcode.com/problems/minimum-penalty-for-a-shop) | You are given the customer visit log of a shop represented by a 0-indexed string customers consisting only of charact... |
 | - [ ] | 2598 | [Shortest Distance to Target String in a Circular Array](./2598-shortest-distance-to-target-string-in-a-circular-array/README.md) | Easy | Medium | [Code](./2598-shortest-distance-to-target-string-in-a-circular-array/shortest-distance-to-target-string-in-a-circular-array.java) | [Link](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array) | You are given a 0-indexed circular string array words and a string target . A circular array means that the array's e... |
