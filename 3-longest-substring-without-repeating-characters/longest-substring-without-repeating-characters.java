@@ -3,20 +3,21 @@ class Solution {
         int begin = 0;
         int end = 0;
         Map<Character, Integer> map = new HashMap<>();
-        int maxLength = 0;
-        int currLength = 0;
+        int ans = 0;
+        int size = 0;
         while(end < s.length()){
-            char currChar = s.charAt(end);
-            int lastOccur = map.getOrDefault(currChar,-1);
-            while(begin <= lastOccur){
+            char curr = s.charAt(end);
+            map.put(curr, map.getOrDefault(curr, 0) + 1);
+            size++;
+            while(begin < end && map.get(curr) != 1){
+                char remove = s.charAt(begin);
+                map.put(remove, map.get(remove)-1);
                 begin++;
-                currLength--;
+                size--;
             }
-            map.put(currChar,end);
-            currLength++;
-            maxLength = Math.max(maxLength, currLength);
+            ans = Math.max(ans, size);
             end++;
         }
-        return maxLength;
+        return ans;
     }
-}
+}   
