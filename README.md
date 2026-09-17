@@ -5,16 +5,16 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 171
+**Total questions indexed:** 172
 
 
 ## Topic Index
 
-- [Arrays](#arrays) (99)
+- [Arrays](#arrays) (100)
 - [Hashing](#hashing) (16)
 - [Two Pointers](#two-pointers) (11)
 - [Sliding Window](#sliding-window) (12)
-- [Prefix Sum](#prefix-sum) (3)
+- [Prefix Sum](#prefix-sum) (4)
 - [Binary Search](#binary-search) (13)
 - [Sorting / Ordering](#sorting--ordering) (20)
 - [Stack / Monotonic Stack](#stack--monotonic-stack) (8)
@@ -23,7 +23,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 - [Linked List](#linked-list) (12)
 - [Trees & BST](#trees--bst) (37)
 - [Graphs (BFS/DFS)](#graphs-bfsdfs) (7)
-- [Dynamic Programming](#dynamic-programming) (16)
+- [Dynamic Programming](#dynamic-programming) (17)
 - [Backtracking](#backtracking) (9)
 - [Greedy](#greedy) (3)
 - [Strings](#strings) (27)
@@ -88,6 +88,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 1370 | [Count Number of Nice Subarrays](./1370-count-number-of-nice-subarrays/README.md) | Medium | Medium | [Code](./1370-count-number-of-nice-subarrays/count-number-of-nice-subarrays.java) | [Link](https://leetcode.com/problems/count-number-of-nice-subarrays) | Given an array of integers nums and an integer k . A continuous subarray is called nice if there are k odd numbers on... |
 | - [ ] | 1445 | [Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](./1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/README.md) | Medium | Medium | [Code](./1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold.java) | [Link](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) | Given an array of integers arr and two integers k and threshold , return the number of sub-arrays of size k and avera... |
 | - [ ] | 1475 | [Maximum Sum BST in Binary Tree](./1475-maximum-sum-bst-in-binary-tree/README.md) | Hard | High | [Code](./1475-maximum-sum-bst-in-binary-tree/maximum-sum-bst-in-binary-tree.java) | [Link](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree) | Given a binary tree root , return the maximum sum of all keys of any sub-tree which is also a Binary Search Tree (BST) . |
+| - [ ] | 1573 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](./1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/README.md) | Medium | Medium | [Code](./1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/find-two-non-overlapping-sub-arrays-each-with-target-sum.java) | [Link](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum) | You are given an array of integers arr and an integer target . |
 | - [ ] | 1975 | [Minimum Distance to the Target Element](./1975-minimum-distance-to-the-target-element/README.md) | Easy | Medium | [Code](./1975-minimum-distance-to-the-target-element/minimum-distance-to-the-target-element.java) | [Link](https://leetcode.com/problems/minimum-distance-to-the-target-element) | Given an integer array nums (0-indexed) and two integers target and start , find an index i such that nums[i] == targ... |
 | - [ ] | 2552 | [Maximum Sum of Distinct Subarrays With Length K](./2552-maximum-sum-of-distinct-subarrays-with-length-k/README.md) | Medium | Medium | [Code](./2552-maximum-sum-of-distinct-subarrays-with-length-k/maximum-sum-of-distinct-subarrays-with-length-k.java) | [Link](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k) | You are given an integer array nums and an integer k . Find the maximum subarray sum of all the subarrays of nums tha... |
 | - [ ] | 2576 | [Minimum Penalty for a Shop](./2576-minimum-penalty-for-a-shop/README.md) | Medium | Medium | [Code](./2576-minimum-penalty-for-a-shop/minimum-penalty-for-a-shop.java) | [Link](https://leetcode.com/problems/minimum-penalty-for-a-shop) | You are given the customer visit log of a shop represented by a 0-indexed string customers consisting only of charact... |
@@ -196,6 +197,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 494 | [Target Sum](./494-target-sum/README.md) | Medium | High | [Code](./494-target-sum/target-sum.java) | [Link](https://leetcode.com/problems/target-sum) | You are given an integer array nums and an integer target . |
 | - [ ] | 560 | [Subarray Sum Equals K](./560-subarray-sum-equals-k/README.md) | Medium | High | [Code](./560-subarray-sum-equals-k/subarray-sum-equals-k.java) | [Link](https://leetcode.com/problems/subarray-sum-equals-k) | Given an array of integers nums and an integer k , return the total number of subarrays whose sum equals to k . |
 | - [ ] | 1370 | [Count Number of Nice Subarrays](./1370-count-number-of-nice-subarrays/README.md) | Medium | Medium | [Code](./1370-count-number-of-nice-subarrays/count-number-of-nice-subarrays.java) | [Link](https://leetcode.com/problems/count-number-of-nice-subarrays) | Given an array of integers nums and an integer k . A continuous subarray is called nice if there are k odd numbers on... |
+| - [ ] | 1573 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](./1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/README.md) | Medium | Medium | [Code](./1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/find-two-non-overlapping-sub-arrays-each-with-target-sum.java) | [Link](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum) | You are given an array of integers arr and an integer target . |
 
 ## Binary Search
 
@@ -356,6 +358,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 416 | [Partition Equal Subset Sum](./416-partition-equal-subset-sum/README.md) | Medium | High | [Code](./416-partition-equal-subset-sum/partition-equal-subset-sum.java) | [Link](https://leetcode.com/problems/partition-equal-subset-sum) | Given an integer array nums , return true if you can partition the array into two subsets such that the sum of the el... |
 | - [ ] | 494 | [Target Sum](./494-target-sum/README.md) | Medium | High | [Code](./494-target-sum/target-sum.java) | [Link](https://leetcode.com/problems/target-sum) | You are given an integer array nums and an integer target . |
 | - [ ] | 518 | [Coin Change II](./518-coin-change-ii/README.md) | Medium | Medium | [Code](./518-coin-change-ii/coin-change-ii.java) | [Link](https://leetcode.com/problems/coin-change-ii) | You are given an integer array coins representing coins of different denominations and an integer amount representing... |
+| - [ ] | 1573 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](./1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/README.md) | Medium | Medium | [Code](./1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/find-two-non-overlapping-sub-arrays-each-with-target-sum.java) | [Link](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum) | You are given an array of integers arr and an integer target . |
 | - [ ] | 4062 | [House Robber V](./4062-house-robber-v/README.md) | Medium | Low | [Code](./4062-house-robber-v/house-robber-v.java) | [Link](https://leetcode.com/problems/house-robber-v) | You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed... |
 | - [ ] | — | [Count Subsets with Sum](./Difficulty: Medium/Count Subsets with Sum/README.md) | Medium | Medium | [Code](./Difficulty: Medium/Count Subsets with Sum/count-subsets-with-sum.java) | [Link](https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1) | Given an array arr[] of non-negative integers and an integer target , the task is to count all subsets of the array w... |
 | - [ ] | — | [Partitions with Given Difference](./Difficulty: Medium/Partitions with Given Difference/README.md) | Medium | Medium | [Code](./Difficulty: Medium/Partitions with Given Difference/partitions-with-given-difference.java) | [Link](https://www.geeksforgeeks.org/problems/partitions-with-given-difference/1) | Partitions with Given Difference Difficulty Level : Difficulty: Medium Given an array arr[] and an integer diff , cou... |
