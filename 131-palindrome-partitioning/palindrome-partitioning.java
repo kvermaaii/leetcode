@@ -1,31 +1,38 @@
 class Solution {
-    public List<List<String>> partition(String s) {
-        List<List<String>> result = new ArrayList<>();
-        makePartition(0,s.length(),s,new ArrayList<>(),result);
-        return result;
-    }
+    List<List<String>> ans;  
+    void help(String s, int idx, List<List<String>> ans, List<String> list)
+    {
+        if(idx == s.length())
+        {
+            ans.add(new ArrayList<>(list));
+            return;
+        }
 
-    public void makePartition(int i, int l,String s, List<String> list, List<List<String>> result){
-        if(i == l){
-            result.add(new ArrayList<>(list));
-        }
-        for(int k=1; k<=s.length() -i ; k++){
-            String str = s.substring(i,i+k); 
-            if(isPalindrome( str , 0 , str.length() -1)){
-                list.add(str);
-                makePartition(i+k,l,s,list,result);
-                list.remove(list.size()-1);
+
+        for(int i = idx; i < s.length(); i++)  
+        {
+            if(ispal(s, idx, i))
+            {
+                list.add(s.substring(idx, i + 1)); 
+                help(s, i + 1, ans, list);
+                list.remove(list.size() - 1); 
             }
         }
     }
-    public boolean isPalindrome(String s, int start, int end){
-        if(start == end){
-            return true;
-        }
-        while(start<end){
-            if(s.charAt(start++) != s.charAt(end--)){
-                return false;
-            }
+    
+    public List<List<String>> partition(String s) {
+        ans = new ArrayList<>();  
+        List<String> list = new ArrayList<>(); 
+        help(s, 0, ans, list); 
+        return ans;
+    }
+  
+    public boolean ispal(String s, int st, int end){
+        while(st < end)
+        {
+            if(s.charAt(st) != s.charAt(end)) return false;
+            st++;
+            end--;
         }
         return true;
     }
