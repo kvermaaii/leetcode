@@ -5,12 +5,12 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 173
+**Total questions indexed:** 174
 
 
 ## Topic Index
 
-- [Arrays](#arrays) (101)
+- [Arrays](#arrays) (102)
 - [Hashing](#hashing) (16)
 - [Two Pointers](#two-pointers) (11)
 - [Sliding Window](#sliding-window) (12)
@@ -62,6 +62,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 128 | [Longest Consecutive Sequence](./128-longest-consecutive-sequence/README.md) | Medium | Medium | [Code](./128-longest-consecutive-sequence/longest-consecutive-sequence.java) | [Link](https://leetcode.com/problems/longest-consecutive-sequence) | Given an unsorted array of integers nums , return the length of the longest consecutive elements sequence. |
 | - [ ] | 155 | [Min Stack](./155-min-stack/README.md) | Medium | High | [Code](./155-min-stack/min-stack.java) | [Link](https://leetcode.com/problems/min-stack) | Design a stack that supports push, pop, top, and retrieving the minimum element in constant time. |
 | - [ ] | 169 | [Majority Element](./169-majority-element/README.md) | Easy | High | [Code](./169-majority-element/majority-element.java) | [Link](https://leetcode.com/problems/majority-element) | Given an array nums of size n , return the majority element . |
+| - [ ] | 189 | [Rotate Array](./189-rotate-array/README.md) | Medium | Medium | [Code](./189-rotate-array/rotate-array.java) | [Link](https://leetcode.com/problems/rotate-array) | Given an integer array nums , rotate the array to the right by k steps, where k is non-negative. |
 | - [ ] | 209 | [Minimum Size Subarray Sum](./209-minimum-size-subarray-sum/README.md) | Medium | High | [Code](./209-minimum-size-subarray-sum/minimum-size-subarray-sum.java) | [Link](https://leetcode.com/problems/minimum-size-subarray-sum) | Given an array of positive integers nums and a positive integer target , return the minimal length of a subarray whos... |
 | - [ ] | 215 | [Kth Largest Element in an Array](./215-kth-largest-element-in-an-array/README.md) | Medium | High | [Code](./215-kth-largest-element-in-an-array/kth-largest-element-in-an-array.java) | [Link](https://leetcode.com/problems/kth-largest-element-in-an-array) | Given an integer array nums and an integer k , return the k th largest element in the array . |
 | - [ ] | 238 | [Product of Array Except Self](./238-product-of-array-except-self/README.md) | Medium | Medium | [Code](./238-product-of-array-except-self/product-of-array-except-self.java) | [Link](https://leetcode.com/problems/product-of-array-except-self) | Given an integer array nums , return an array answer such that answer[i] is equal to the product of all the elements... |
