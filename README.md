@@ -5,12 +5,12 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 172
+**Total questions indexed:** 173
 
 
 ## Topic Index
 
-- [Arrays](#arrays) (100)
+- [Arrays](#arrays) (101)
 - [Hashing](#hashing) (16)
 - [Two Pointers](#two-pointers) (11)
 - [Sliding Window](#sliding-window) (12)
@@ -26,7 +26,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 - [Dynamic Programming](#dynamic-programming) (17)
 - [Backtracking](#backtracking) (9)
 - [Greedy](#greedy) (3)
-- [Strings](#strings) (27)
+- [Strings](#strings) (28)
 - [Bit Manipulation](#bit-manipulation) (7)
 - [Math](#math) (6)
 - [Design](#design) (8)
@@ -69,6 +69,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 322 | [Coin Change](./322-coin-change/README.md) | Medium | High | [Code](./322-coin-change/coin-change.java) | [Link](https://leetcode.com/problems/coin-change) | You are given an integer array coins representing coins of different denominations and an integer amount representing... |
 | - [ ] | 347 | [Top K Frequent Elements](./347-top-k-frequent-elements/README.md) | Medium | High | [Code](./347-top-k-frequent-elements/top-k-frequent-elements.java) | [Link](https://leetcode.com/problems/top-k-frequent-elements) | Given an integer array nums and an integer k , return the k most frequent elements . You may return the answer in any... |
 | - [ ] | 416 | [Partition Equal Subset Sum](./416-partition-equal-subset-sum/README.md) | Medium | High | [Code](./416-partition-equal-subset-sum/partition-equal-subset-sum.java) | [Link](https://leetcode.com/problems/partition-equal-subset-sum) | Given an integer array nums , return true if you can partition the array into two subsets such that the sum of the el... |
+| - [ ] | 438 | [Find All Anagrams in a String](./438-find-all-anagrams-in-a-string/README.md) | Medium | Medium | [Code](./438-find-all-anagrams-in-a-string/find-all-anagrams-in-a-string.java) | [Link](https://leetcode.com/problems/find-all-anagrams-in-a-string) | Given two strings s and p , return an array of all the start indices of p 's anagrams in s . You may return the answe... |
 | - [ ] | 455 | [Assign Cookies](./455-assign-cookies/README.md) | Easy | Medium | [Code](./455-assign-cookies/assign-cookies.java) | [Link](https://leetcode.com/problems/assign-cookies) | Assume you are an awesome parent and want to give your children some cookies. But, you should give each child at most... |
 | - [ ] | 485 | [Max Consecutive Ones](./485-max-consecutive-ones/README.md) | Easy | Medium | [Code](./485-max-consecutive-ones/max-consecutive-ones.java) | [Link](https://leetcode.com/problems/max-consecutive-ones) | Given a binary array nums , return the maximum number of consecutive 1 's in the array . |
 | - [ ] | 494 | [Target Sum](./494-target-sum/README.md) | Medium | High | [Code](./494-target-sum/target-sum.java) | [Link](https://leetcode.com/problems/target-sum) | You are given an integer array nums and an integer target . |
@@ -405,6 +406,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 234 | [Palindrome Linked List](./234-palindrome-linked-list/README.md) | Easy | Medium | [Code](./234-palindrome-linked-list/palindrome-linked-list.java) | [Link](https://leetcode.com/problems/palindrome-linked-list) | Given the head of a singly linked list, return true if it is a palindrome or false otherwise . |
 | - [ ] | 340 | [Longest Substring with At Most K Distinct Characters](./340-longest-substring-with-at-most-k-distinct-characters/README.md) | Medium | Medium | [Code](./340-longest-substring-with-at-most-k-distinct-characters/longest-substring-with-at-most-k-distinct-characters.java) | [Link](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters) | Given a string s and an integer k , return the length of the longest substring of s that contains at most k distinct... |
 | - [ ] | 424 | [Longest Repeating Character Replacement](./424-longest-repeating-character-replacement/README.md) | Medium | Medium | [Code](./424-longest-repeating-character-replacement/longest-repeating-character-replacement.java) | [Link](https://leetcode.com/problems/longest-repeating-character-replacement) | You are given a string s and an integer k . You can choose any character of the string and change it to any other upp... |
+| - [ ] | 438 | [Find All Anagrams in a String](./438-find-all-anagrams-in-a-string/README.md) | Medium | Medium | [Code](./438-find-all-anagrams-in-a-string/find-all-anagrams-in-a-string.java) | [Link](https://leetcode.com/problems/find-all-anagrams-in-a-string) | Given two strings s and p , return an array of all the start indices of p 's anagrams in s . You may return the answe... |
 | - [ ] | 567 | [Permutation in String](./567-permutation-in-string/README.md) | Medium | Medium | [Code](./567-permutation-in-string/permutation-in-string.java) | [Link](https://leetcode.com/problems/permutation-in-string) | Given two strings s1 and s2 , return true if s2 contains a permutation of s1 , or false otherwise. |
 | - [ ] | 686 | [Repeated String Match](./686-repeated-string-match/README.md) | Medium | Medium | [Code](./686-repeated-string-match/repeated-string-match.java) | [Link](https://leetcode.com/problems/repeated-string-match) | Given two strings a and b , return the minimum number of times you should repeat string a so that string b is a subst... |
 | - [ ] | 2576 | [Minimum Penalty for a Shop](./2576-minimum-penalty-for-a-shop/README.md) | Medium | Medium | [Code](./2576-minimum-penalty-for-a-shop/minimum-penalty-for-a-shop.java) | [Link](https://leetcode.com/problems/minimum-penalty-for-a-shop) | You are given the customer visit log of a shop represented by a 0-indexed string customers consisting only of charact... |
