@@ -5,15 +5,15 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 174
+**Total questions indexed:** 175
 
 
 ## Topic Index
 
-- [Arrays](#arrays) (102)
+- [Arrays](#arrays) (103)
 - [Hashing](#hashing) (16)
 - [Two Pointers](#two-pointers) (11)
-- [Sliding Window](#sliding-window) (12)
+- [Sliding Window](#sliding-window) (13)
 - [Prefix Sum](#prefix-sum) (4)
 - [Binary Search](#binary-search) (13)
 - [Sorting / Ordering](#sorting--ordering) (20)
@@ -21,12 +21,12 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 - [Queue / Deque](#queue--deque) (5)
 - [Heap / Priority Queue](#heap--priority-queue) (3)
 - [Linked List](#linked-list) (12)
-- [Trees & BST](#trees--bst) (37)
+- [Trees & BST](#trees--bst) (38)
 - [Graphs (BFS/DFS)](#graphs-bfsdfs) (7)
 - [Dynamic Programming](#dynamic-programming) (17)
 - [Backtracking](#backtracking) (9)
 - [Greedy](#greedy) (3)
-- [Strings](#strings) (28)
+- [Strings](#strings) (29)
 - [Bit Manipulation](#bit-manipulation) (7)
 - [Math](#math) (6)
 - [Design](#design) (8)
@@ -91,6 +91,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 1445 | [Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](./1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/README.md) | Medium | Medium | [Code](./1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold.java) | [Link](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) | Given an array of integers arr and two integers k and threshold , return the number of sub-arrays of size k and avera... |
 | - [ ] | 1475 | [Maximum Sum BST in Binary Tree](./1475-maximum-sum-bst-in-binary-tree/README.md) | Hard | High | [Code](./1475-maximum-sum-bst-in-binary-tree/maximum-sum-bst-in-binary-tree.java) | [Link](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree) | Given a binary tree root , return the maximum sum of all keys of any sub-tree which is also a Binary Search Tree (BST) . |
 | - [ ] | 1573 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](./1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/README.md) | Medium | Medium | [Code](./1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/find-two-non-overlapping-sub-arrays-each-with-target-sum.java) | [Link](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum) | You are given an array of integers arr and an integer target . |
+| - [ ] | 1644 | [Maximum Number of Non-Overlapping Substrings](./1644-maximum-number-of-non-overlapping-substrings/README.md) | Hard | High | [Code](./1644-maximum-number-of-non-overlapping-substrings/maximum-number-of-non-overlapping-substrings.java) | [Link](https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings) | Given a string s of lowercase letters, you need to find the maximum number of non-empty substrings of s that meet the... |
 | - [ ] | 1975 | [Minimum Distance to the Target Element](./1975-minimum-distance-to-the-target-element/README.md) | Easy | Medium | [Code](./1975-minimum-distance-to-the-target-element/minimum-distance-to-the-target-element.java) | [Link](https://leetcode.com/problems/minimum-distance-to-the-target-element) | Given an integer array nums (0-indexed) and two integers target and start , find an index i such that nums[i] == targ... |
 | - [ ] | 2552 | [Maximum Sum of Distinct Subarrays With Length K](./2552-maximum-sum-of-distinct-subarrays-with-length-k/README.md) | Medium | Medium | [Code](./2552-maximum-sum-of-distinct-subarrays-with-length-k/maximum-sum-of-distinct-subarrays-with-length-k.java) | [Link](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k) | You are given an integer array nums and an integer k . Find the maximum subarray sum of all the subarrays of nums tha... |
 | - [ ] | 2576 | [Minimum Penalty for a Shop](./2576-minimum-penalty-for-a-shop/README.md) | Medium | Medium | [Code](./2576-minimum-penalty-for-a-shop/minimum-penalty-for-a-shop.java) | [Link](https://leetcode.com/problems/minimum-penalty-for-a-shop) | You are given the customer visit log of a shop represented by a 0-indexed string customers consisting only of charact... |
@@ -189,6 +190,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 713 | [Subarray Product Less Than K](./713-subarray-product-less-than-k/README.md) | Medium | Medium | [Code](./713-subarray-product-less-than-k/subarray-product-less-than-k.java) | [Link](https://leetcode.com/problems/subarray-product-less-than-k) | Given an array of integers nums and an integer k , return the number of contiguous subarrays where the product of all... |
 | - [ ] | 1046 | [Max Consecutive Ones III](./1046-max-consecutive-ones-iii/README.md) | Medium | Medium | [Code](./1046-max-consecutive-ones-iii/max-consecutive-ones-iii.java) | [Link](https://leetcode.com/problems/max-consecutive-ones-iii) | Given a binary array nums and an integer k , return the maximum number of consecutive 1 's in the array if you can fl... |
 | - [ ] | 1370 | [Count Number of Nice Subarrays](./1370-count-number-of-nice-subarrays/README.md) | Medium | Medium | [Code](./1370-count-number-of-nice-subarrays/count-number-of-nice-subarrays.java) | [Link](https://leetcode.com/problems/count-number-of-nice-subarrays) | Given an array of integers nums and an integer k . A continuous subarray is called nice if there are k odd numbers on... |
+| - [ ] | 1644 | [Maximum Number of Non-Overlapping Substrings](./1644-maximum-number-of-non-overlapping-substrings/README.md) | Hard | High | [Code](./1644-maximum-number-of-non-overlapping-substrings/maximum-number-of-non-overlapping-substrings.java) | [Link](https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings) | Given a string s of lowercase letters, you need to find the maximum number of non-empty substrings of s that meet the... |
 | - [ ] | 2552 | [Maximum Sum of Distinct Subarrays With Length K](./2552-maximum-sum-of-distinct-subarrays-with-length-k/README.md) | Medium | Medium | [Code](./2552-maximum-sum-of-distinct-subarrays-with-length-k/maximum-sum-of-distinct-subarrays-with-length-k.java) | [Link](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k) | You are given an integer array nums and an integer k . Find the maximum subarray sum of all the subarrays of nums tha... |
 | - [ ] | 4265 | [Longest Balanced Substring After One Swap](./4265-longest-balanced-substring-after-one-swap/README.md) | Medium | Low | [Code](./4265-longest-balanced-substring-after-one-swap/longest-balanced-substring-after-one-swap.java) | [Link](https://leetcode.com/problems/longest-balanced-substring-after-one-swap) | You are given a binary string s consisting only of characters '0' and '1' . |
 
@@ -329,6 +331,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 1029 | [Vertical Order Traversal of a Binary Tree](./1029-vertical-order-traversal-of-a-binary-tree/README.md) | Hard | High | [Code](./1029-vertical-order-traversal-of-a-binary-tree/vertical-order-traversal-of-a-binary-tree.java) | [Link](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree) | Given the root of a binary tree, calculate the vertical order traversal of the binary tree. |
 | - [ ] | 1050 | [Construct Binary Search Tree from Preorder Traversal](./1050-construct-binary-search-tree-from-preorder-traversal/README.md) | Medium | Medium | — | [Link](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal) | Given an array of integers preorder, which represents the preorder traversal of a BST (i.e., binary search tree ), co... |
 | - [ ] | 1475 | [Maximum Sum BST in Binary Tree](./1475-maximum-sum-bst-in-binary-tree/README.md) | Hard | High | [Code](./1475-maximum-sum-bst-in-binary-tree/maximum-sum-bst-in-binary-tree.java) | [Link](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree) | Given a binary tree root , return the maximum sum of all keys of any sub-tree which is also a Binary Search Tree (BST) . |
+| - [ ] | 1644 | [Maximum Number of Non-Overlapping Substrings](./1644-maximum-number-of-non-overlapping-substrings/README.md) | Hard | High | [Code](./1644-maximum-number-of-non-overlapping-substrings/maximum-number-of-non-overlapping-substrings.java) | [Link](https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings) | Given a string s of lowercase letters, you need to find the maximum number of non-empty substrings of s that meet the... |
 | - [ ] | 2199 | [Two Furthest Houses With Different Colors](./2199-two-furthest-houses-with-different-colors/README.md) | Easy | Medium | — | [Link](https://leetcode.com/problems/two-furthest-houses-with-different-colors) | There are n houses evenly lined up on the street, and each house is beautifully painted. You are given a 0-indexed in... |
 | - [ ] | 4062 | [House Robber V](./4062-house-robber-v/README.md) | Medium | Low | [Code](./4062-house-robber-v/house-robber-v.java) | [Link](https://leetcode.com/problems/house-robber-v) | You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed... |
 | - [ ] | 4265 | [Longest Balanced Substring After One Swap](./4265-longest-balanced-substring-after-one-swap/README.md) | Medium | Low | [Code](./4265-longest-balanced-substring-after-one-swap/longest-balanced-substring-after-one-swap.java) | [Link](https://leetcode.com/problems/longest-balanced-substring-after-one-swap) | You are given a binary string s consisting only of characters '0' and '1' . |
@@ -410,6 +413,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 438 | [Find All Anagrams in a String](./438-find-all-anagrams-in-a-string/README.md) | Medium | Medium | [Code](./438-find-all-anagrams-in-a-string/find-all-anagrams-in-a-string.java) | [Link](https://leetcode.com/problems/find-all-anagrams-in-a-string) | Given two strings s and p , return an array of all the start indices of p 's anagrams in s . You may return the answe... |
 | - [ ] | 567 | [Permutation in String](./567-permutation-in-string/README.md) | Medium | Medium | [Code](./567-permutation-in-string/permutation-in-string.java) | [Link](https://leetcode.com/problems/permutation-in-string) | Given two strings s1 and s2 , return true if s2 contains a permutation of s1 , or false otherwise. |
 | - [ ] | 686 | [Repeated String Match](./686-repeated-string-match/README.md) | Medium | Medium | [Code](./686-repeated-string-match/repeated-string-match.java) | [Link](https://leetcode.com/problems/repeated-string-match) | Given two strings a and b , return the minimum number of times you should repeat string a so that string b is a subst... |
+| - [ ] | 1644 | [Maximum Number of Non-Overlapping Substrings](./1644-maximum-number-of-non-overlapping-substrings/README.md) | Hard | High | [Code](./1644-maximum-number-of-non-overlapping-substrings/maximum-number-of-non-overlapping-substrings.java) | [Link](https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings) | Given a string s of lowercase letters, you need to find the maximum number of non-empty substrings of s that meet the... |
 | - [ ] | 2576 | [Minimum Penalty for a Shop](./2576-minimum-penalty-for-a-shop/README.md) | Medium | Medium | [Code](./2576-minimum-penalty-for-a-shop/minimum-penalty-for-a-shop.java) | [Link](https://leetcode.com/problems/minimum-penalty-for-a-shop) | You are given the customer visit log of a shop represented by a 0-indexed string customers consisting only of charact... |
 | - [ ] | 2598 | [Shortest Distance to Target String in a Circular Array](./2598-shortest-distance-to-target-string-in-a-circular-array/README.md) | Easy | Medium | [Code](./2598-shortest-distance-to-target-string-in-a-circular-array/shortest-distance-to-target-string-in-a-circular-array.java) | [Link](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array) | You are given a 0-indexed circular string array words and a string target . A circular array means that the array's e... |
 | - [ ] | 3999 | [Minimum Operations to Transform String](./3999-minimum-operations-to-transform-string/README.md) | Medium | Low | [Code](./3999-minimum-operations-to-transform-string/minimum-operations-to-transform-string.java) | [Link](https://leetcode.com/problems/minimum-operations-to-transform-string) | You are given a string s consisting only of lowercase English letters. |
