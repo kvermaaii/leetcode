@@ -5,12 +5,12 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 175
+**Total questions indexed:** 176
 
 
 ## Topic Index
 
-- [Arrays](#arrays) (103)
+- [Arrays](#arrays) (104)
 - [Hashing](#hashing) (16)
 - [Two Pointers](#two-pointers) (11)
 - [Sliding Window](#sliding-window) (13)
@@ -90,6 +90,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 1370 | [Count Number of Nice Subarrays](./1370-count-number-of-nice-subarrays/README.md) | Medium | Medium | [Code](./1370-count-number-of-nice-subarrays/count-number-of-nice-subarrays.java) | [Link](https://leetcode.com/problems/count-number-of-nice-subarrays) | Given an array of integers nums and an integer k . A continuous subarray is called nice if there are k odd numbers on... |
 | - [ ] | 1445 | [Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](./1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/README.md) | Medium | Medium | [Code](./1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold.java) | [Link](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) | Given an array of integers arr and two integers k and threshold , return the number of sub-arrays of size k and avera... |
 | - [ ] | 1475 | [Maximum Sum BST in Binary Tree](./1475-maximum-sum-bst-in-binary-tree/README.md) | Hard | High | [Code](./1475-maximum-sum-bst-in-binary-tree/maximum-sum-bst-in-binary-tree.java) | [Link](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree) | Given a binary tree root , return the maximum sum of all keys of any sub-tree which is also a Binary Search Tree (BST) . |
+| - [ ] | 1501 | [Circle and Rectangle Overlapping](./1501-circle-and-rectangle-overlapping/README.md) | Medium | Medium | — | [Link](https://leetcode.com/problems/circle-and-rectangle-overlapping) | You are given a circle represented as (radius, xCenter, yCenter) and an axis-aligned rectangle represented as (x1, y1... |
 | - [ ] | 1573 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](./1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/README.md) | Medium | Medium | [Code](./1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/find-two-non-overlapping-sub-arrays-each-with-target-sum.java) | [Link](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum) | You are given an array of integers arr and an integer target . |
 | - [ ] | 1644 | [Maximum Number of Non-Overlapping Substrings](./1644-maximum-number-of-non-overlapping-substrings/README.md) | Hard | High | [Code](./1644-maximum-number-of-non-overlapping-substrings/maximum-number-of-non-overlapping-substrings.java) | [Link](https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings) | Given a string s of lowercase letters, you need to find the maximum number of non-empty substrings of s that meet the... |
 | - [ ] | 1975 | [Minimum Distance to the Target Element](./1975-minimum-distance-to-the-target-element/README.md) | Easy | Medium | [Code](./1975-minimum-distance-to-the-target-element/minimum-distance-to-the-target-element.java) | [Link](https://leetcode.com/problems/minimum-distance-to-the-target-element) | Given an integer array nums (0-indexed) and two integers target and start , find an index i such that nums[i] == targ... |
