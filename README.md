@@ -5,12 +5,12 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 176
+**Total questions indexed:** 177
 
 
 ## Topic Index
 
-- [Arrays](#arrays) (104)
+- [Arrays](#arrays) (105)
 - [Hashing](#hashing) (16)
 - [Two Pointers](#two-pointers) (11)
 - [Sliding Window](#sliding-window) (13)
@@ -58,6 +58,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 108 | [Convert Sorted Array to Binary Search Tree](./108-convert-sorted-array-to-binary-search-tree/README.md) | Easy | Medium | [Code](./108-convert-sorted-array-to-binary-search-tree/convert-sorted-array-to-binary-search-tree.java) | [Link](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | Given an integer array nums where the elements are sorted in ascending order , convert it to a height-balanced binary... |
 | - [ ] | 120 | [Triangle](./120-triangle/README.md) | Medium | Medium | [Code](./120-triangle/triangle.java) | [Link](https://leetcode.com/problems/triangle) | Given a triangle array, return the minimum path sum from top to bottom . |
 | - [ ] | 121 | [Best Time to Buy and Sell Stock](./121-best-time-to-buy-and-sell-stock/README.md) | Easy | Medium | [Code](./121-best-time-to-buy-and-sell-stock/best-time-to-buy-and-sell-stock.java) | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | You are given an array prices where prices[i] is the price of a given stock on the i th day. |
+| - [ ] | 122 | [Best Time to Buy and Sell Stock II](./122-best-time-to-buy-and-sell-stock-ii/README.md) | Medium | Medium | — | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) | You are given an integer array prices where prices[i] is the price of a given stock on the i th day. |
 | - [ ] | 124 | [Binary Tree Maximum Path Sum](./124-binary-tree-maximum-path-sum/README.md) | Hard | High | [Code](./124-binary-tree-maximum-path-sum/binary-tree-maximum-path-sum.java) | [Link](https://leetcode.com/problems/binary-tree-maximum-path-sum) | A path in a binary tree is a sequence of nodes where each pair of adjacent nodes in the sequence has an edge connecti... |
 | - [ ] | 128 | [Longest Consecutive Sequence](./128-longest-consecutive-sequence/README.md) | Medium | Medium | [Code](./128-longest-consecutive-sequence/longest-consecutive-sequence.java) | [Link](https://leetcode.com/problems/longest-consecutive-sequence) | Given an unsorted array of integers nums , return the length of the longest consecutive elements sequence. |
 | - [ ] | 155 | [Min Stack](./155-min-stack/README.md) | Medium | High | [Code](./155-min-stack/min-stack.java) | [Link](https://leetcode.com/problems/min-stack) | Design a stack that supports push, pop, top, and retrieving the minimum element in constant time. |
