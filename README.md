@@ -5,18 +5,18 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 179
+**Total questions indexed:** 180
 
 
 ## Topic Index
 
-- [Arrays](#arrays) (107)
+- [Arrays](#arrays) (108)
 - [Hashing](#hashing) (16)
 - [Two Pointers](#two-pointers) (11)
 - [Sliding Window](#sliding-window) (13)
 - [Prefix Sum](#prefix-sum) (4)
-- [Binary Search](#binary-search) (13)
-- [Sorting / Ordering](#sorting--ordering) (20)
+- [Binary Search](#binary-search) (14)
+- [Sorting / Ordering](#sorting--ordering) (21)
 - [Stack / Monotonic Stack](#stack--monotonic-stack) (8)
 - [Queue / Deque](#queue--deque) (5)
 - [Heap / Priority Queue](#heap--priority-queue) (3)
@@ -87,6 +87,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 686 | [Repeated String Match](./686-repeated-string-match/README.md) | Medium | Medium | [Code](./686-repeated-string-match/repeated-string-match.java) | [Link](https://leetcode.com/problems/repeated-string-match) | Given two strings a and b , return the minimum number of times you should repeat string a so that string b is a subst... |
 | - [ ] | 713 | [Subarray Product Less Than K](./713-subarray-product-less-than-k/README.md) | Medium | Medium | [Code](./713-subarray-product-less-than-k/subarray-product-less-than-k.java) | [Link](https://leetcode.com/problems/subarray-product-less-than-k) | Given an array of integers nums and an integer k , return the number of contiguous subarrays where the product of all... |
 | - [ ] | 735 | [Asteroid Collision](./735-asteroid-collision/README.md) | Medium | Medium | [Code](./735-asteroid-collision/asteroid-collision.java) | [Link](https://leetcode.com/problems/asteroid-collision) | We are given an array asteroids of integers representing asteroids in a row. The indices of the asteriod in the array... |
+| - [ ] | 792 | [Binary Search](./792-binary-search/README.md) | Easy | Medium | [Code](./792-binary-search/binary-search.java) | [Link](https://leetcode.com/problems/binary-search) | Given an array of integers nums which is sorted in ascending order, and an integer target , write a function to searc... |
 | - [ ] | 906 | [Walking Robot Simulation](./906-walking-robot-simulation/README.md) | Medium | Medium | [Code](./906-walking-robot-simulation/walking-robot-simulation.java) | [Link](https://leetcode.com/problems/walking-robot-simulation) | A robot on an infinite XY-plane starts at point (0, 0) facing north. The robot receives an array of integers commands... |
 | - [ ] | 1046 | [Max Consecutive Ones III](./1046-max-consecutive-ones-iii/README.md) | Medium | Medium | [Code](./1046-max-consecutive-ones-iii/max-consecutive-ones-iii.java) | [Link](https://leetcode.com/problems/max-consecutive-ones-iii) | Given a binary array nums and an integer k , return the maximum number of consecutive 1 's in the array if you can fl... |
 | - [ ] | 1050 | [Construct Binary Search Tree from Preorder Traversal](./1050-construct-binary-search-tree-from-preorder-traversal/README.md) | Medium | Medium | — | [Link](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal) | Given an array of integers preorder, which represents the preorder traversal of a BST (i.e., binary search tree ), co... |
@@ -221,6 +222,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 540 | [Single Element in a Sorted Array](./540-single-element-in-a-sorted-array/README.md) | Medium | Medium | [Code](./540-single-element-in-a-sorted-array/single-element-in-a-sorted-array.java) | [Link](https://leetcode.com/problems/single-element-in-a-sorted-array) | You are given a sorted array consisting of only integers where every element appears exactly twice, except for one el... |
 | - [ ] | 653 | [Two Sum IV - Input is a BST](./653-two-sum-iv-input-is-a-bst/README.md) | Easy | Medium | [Code](./653-two-sum-iv-input-is-a-bst/two-sum-iv-input-is-a-bst.java) | [Link](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | Given the root of a binary search tree and an integer k , return true if there exist two elements in the BST such tha... |
 | - [ ] | 783 | [Search in a Binary Search Tree](./783-search-in-a-binary-search-tree/README.md) | Easy | Medium | [Code](./783-search-in-a-binary-search-tree/search-in-a-binary-search-tree.java) | [Link](https://leetcode.com/problems/search-in-a-binary-search-tree) | You are given the root of a binary search tree (BST) and an integer val . |
+| - [ ] | 792 | [Binary Search](./792-binary-search/README.md) | Easy | Medium | [Code](./792-binary-search/binary-search.java) | [Link](https://leetcode.com/problems/binary-search) | Given an array of integers nums which is sorted in ascending order, and an integer target , write a function to searc... |
 | - [ ] | 1050 | [Construct Binary Search Tree from Preorder Traversal](./1050-construct-binary-search-tree-from-preorder-traversal/README.md) | Medium | Medium | — | [Link](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal) | Given an array of integers preorder, which represents the preorder traversal of a BST (i.e., binary search tree ), co... |
 | - [ ] | 1475 | [Maximum Sum BST in Binary Tree](./1475-maximum-sum-bst-in-binary-tree/README.md) | Hard | High | [Code](./1475-maximum-sum-bst-in-binary-tree/maximum-sum-bst-in-binary-tree.java) | [Link](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree) | Given a binary tree root , return the maximum sum of all keys of any sub-tree which is also a Binary Search Tree (BST) . |
 | - [ ] | — | [Floor And Ceil In A Bst](./Floor-and-Ceil-in-a-BST/README.md) | Unknown | Medium | [Code](./Floor-and-Ceil-in-a-BST/Floor-and-Ceil-in-a-BST.java) | — | Given a root of binary search tree and a key(node) value, find the floor and ceil value for that particular key value. |
@@ -243,6 +245,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 540 | [Single Element in a Sorted Array](./540-single-element-in-a-sorted-array/README.md) | Medium | Medium | [Code](./540-single-element-in-a-sorted-array/single-element-in-a-sorted-array.java) | [Link](https://leetcode.com/problems/single-element-in-a-sorted-array) | You are given a sorted array consisting of only integers where every element appears exactly twice, except for one el... |
 | - [ ] | 567 | [Permutation in String](./567-permutation-in-string/README.md) | Medium | Medium | [Code](./567-permutation-in-string/permutation-in-string.java) | [Link](https://leetcode.com/problems/permutation-in-string) | Given two strings s1 and s2 , return true if s2 contains a permutation of s1 , or false otherwise. |
 | - [ ] | 789 | [Kth Largest Element in a Stream](./789-kth-largest-element-in-a-stream/README.md) | Easy | Medium | [Code](./789-kth-largest-element-in-a-stream/kth-largest-element-in-a-stream.java) | [Link](https://leetcode.com/problems/kth-largest-element-in-a-stream) | You are part of a university admissions office and need to keep track of the kth highest test score from applicants i... |
+| - [ ] | 792 | [Binary Search](./792-binary-search/README.md) | Easy | Medium | [Code](./792-binary-search/binary-search.java) | [Link](https://leetcode.com/problems/binary-search) | Given an array of integers nums which is sorted in ascending order, and an integer target , write a function to searc... |
 | - [ ] | 3219 | [Make Lexicographically Smallest Array by Swapping Elements](./3219-make-lexicographically-smallest-array-by-swapping-elements/README.md) | Medium | Low | [Code](./3219-make-lexicographically-smallest-array-by-swapping-elements/make-lexicographically-smallest-array-by-swapping-elements.java) | [Link](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements) | You are given a 0-indexed array of positive integers nums and a positive integer limit . |
 | - [ ] | 3950 | [Maximum K to Sort a Permutation](./3950-maximum-k-to-sort-a-permutation/README.md) | Medium | Low | [Code](./3950-maximum-k-to-sort-a-permutation/maximum-k-to-sort-a-permutation.java) | [Link](https://leetcode.com/problems/maximum-k-to-sort-a-permutation) | You are given an integer array nums of length n , where nums is a permutation of the numbers in the range [0..n - 1] . |
 | - [ ] | 4061 | [Minimum Swaps to Avoid Forbidden Values](./4061-minimum-swaps-to-avoid-forbidden-values/README.md) | Hard | Low | [Code](./4061-minimum-swaps-to-avoid-forbidden-values/minimum-swaps-to-avoid-forbidden-values.java) | [Link](https://leetcode.com/problems/minimum-swaps-to-avoid-forbidden-values) | You are given two integer arrays, nums and forbidden , each of length n . |
