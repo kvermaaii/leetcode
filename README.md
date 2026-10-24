@@ -5,12 +5,12 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 180
+**Total questions indexed:** 181
 
 
 ## Topic Index
 
-- [Arrays](#arrays) (108)
+- [Arrays](#arrays) (109)
 - [Hashing](#hashing) (16)
 - [Two Pointers](#two-pointers) (11)
 - [Sliding Window](#sliding-window) (13)
@@ -62,6 +62,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 123 | [Best Time to Buy and Sell Stock III](./123-best-time-to-buy-and-sell-stock-iii/README.md) | Hard | High | — | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii) | You are given an array prices where prices[i] is the price of a given stock on the i th day. |
 | - [ ] | 124 | [Binary Tree Maximum Path Sum](./124-binary-tree-maximum-path-sum/README.md) | Hard | High | [Code](./124-binary-tree-maximum-path-sum/binary-tree-maximum-path-sum.java) | [Link](https://leetcode.com/problems/binary-tree-maximum-path-sum) | A path in a binary tree is a sequence of nodes where each pair of adjacent nodes in the sequence has an edge connecti... |
 | - [ ] | 128 | [Longest Consecutive Sequence](./128-longest-consecutive-sequence/README.md) | Medium | Medium | [Code](./128-longest-consecutive-sequence/longest-consecutive-sequence.java) | [Link](https://leetcode.com/problems/longest-consecutive-sequence) | Given an unsorted array of integers nums , return the length of the longest consecutive elements sequence. |
+| - [ ] | 143 | [Reorder List](./143-reorder-list/README.md) | Medium | Medium | [Code](./143-reorder-list/reorder-list.java) | [Link](https://leetcode.com/problems/reorder-list) | You are given the head of a singly linked-list. The list can be represented as: |
 | - [ ] | 155 | [Min Stack](./155-min-stack/README.md) | Medium | High | [Code](./155-min-stack/min-stack.java) | [Link](https://leetcode.com/problems/min-stack) | Design a stack that supports push, pop, top, and retrieving the minimum element in constant time. |
 | - [ ] | 169 | [Majority Element](./169-majority-element/README.md) | Easy | High | [Code](./169-majority-element/majority-element.java) | [Link](https://leetcode.com/problems/majority-element) | Given an array nums of size n , return the majority element . |
 | - [ ] | 189 | [Rotate Array](./189-rotate-array/README.md) | Medium | Medium | [Code](./189-rotate-array/rotate-array.java) | [Link](https://leetcode.com/problems/rotate-array) | Given an integer array nums , rotate the array to the right by k steps, where k is non-negative. |
