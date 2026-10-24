@@ -5,7 +5,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 181
+**Total questions indexed:** 182
 
 
 ## Topic Index
@@ -21,7 +21,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 - [Queue / Deque](#queue--deque) (5)
 - [Heap / Priority Queue](#heap--priority-queue) (3)
 - [Linked List](#linked-list) (12)
-- [Trees & BST](#trees--bst) (38)
+- [Trees & BST](#trees--bst) (39)
 - [Graphs (BFS/DFS)](#graphs-bfsdfs) (7)
 - [Dynamic Programming](#dynamic-programming) (17)
 - [Backtracking](#backtracking) (9)
@@ -327,6 +327,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 173 | [Binary Search Tree Iterator](./173-binary-search-tree-iterator/README.md) | Medium | Medium | [Code](./173-binary-search-tree-iterator/binary-search-tree-iterator.java) | [Link](https://leetcode.com/problems/binary-search-tree-iterator) | Implement the BSTIterator class that represents an iterator over the in-order traversal of a binary search tree (BST): |
 | - [ ] | 198 | [House Robber](./198-house-robber/README.md) | Medium | High | [Code](./198-house-robber/house-robber.java) | [Link](https://leetcode.com/problems/house-robber) | You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed... |
 | - [ ] | 213 | [House Robber II](./213-house-robber-ii/README.md) | Medium | High | [Code](./213-house-robber-ii/house-robber-ii.java) | [Link](https://leetcode.com/problems/house-robber-ii) | You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed... |
+| - [ ] | 226 | [Invert Binary Tree](./226-invert-binary-tree/README.md) | Easy | Medium | — | [Link](https://leetcode.com/problems/invert-binary-tree) | Given the root of a binary tree, invert the tree, and return its root . |
 | - [ ] | 230 | [Kth Smallest Element in a BST](./230-kth-smallest-element-in-a-bst/README.md) | Medium | High | [Code](./230-kth-smallest-element-in-a-bst/kth-smallest-element-in-a-bst.java) | [Link](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | Given the root of a binary search tree, and an integer k , return the k th smallest value ( 1-indexed ) of all the va... |
 | - [ ] | 236 | [Lowest Common Ancestor of a Binary Tree](./236-lowest-common-ancestor-of-a-binary-tree/README.md) | Medium | High | [Code](./236-lowest-common-ancestor-of-a-binary-tree/lowest-common-ancestor-of-a-binary-tree.java) | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree. |
 | - [ ] | 297 | [Serialize and Deserialize Binary Tree](./297-serialize-and-deserialize-binary-tree/README.md) | Hard | High | [Code](./297-serialize-and-deserialize-binary-tree/serialize-and-deserialize-binary-tree.java) | [Link](https://leetcode.com/problems/serialize-and-deserialize-binary-tree) | Serialization is the process of converting a data structure or object into a sequence of bits so that it can be store... |
