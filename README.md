@@ -5,7 +5,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 182
+**Total questions indexed:** 183
 
 
 ## Topic Index
@@ -15,13 +15,13 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 - [Two Pointers](#two-pointers) (11)
 - [Sliding Window](#sliding-window) (13)
 - [Prefix Sum](#prefix-sum) (4)
-- [Binary Search](#binary-search) (14)
+- [Binary Search](#binary-search) (15)
 - [Sorting / Ordering](#sorting--ordering) (21)
 - [Stack / Monotonic Stack](#stack--monotonic-stack) (8)
 - [Queue / Deque](#queue--deque) (5)
 - [Heap / Priority Queue](#heap--priority-queue) (3)
 - [Linked List](#linked-list) (12)
-- [Trees & BST](#trees--bst) (39)
+- [Trees & BST](#trees--bst) (40)
 - [Graphs (BFS/DFS)](#graphs-bfsdfs) (7)
 - [Dynamic Programming](#dynamic-programming) (17)
 - [Backtracking](#backtracking) (9)
@@ -220,6 +220,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 128 | [Longest Consecutive Sequence](./128-longest-consecutive-sequence/README.md) | Medium | Medium | [Code](./128-longest-consecutive-sequence/longest-consecutive-sequence.java) | [Link](https://leetcode.com/problems/longest-consecutive-sequence) | Given an unsorted array of integers nums , return the length of the longest consecutive elements sequence. |
 | - [ ] | 173 | [Binary Search Tree Iterator](./173-binary-search-tree-iterator/README.md) | Medium | Medium | [Code](./173-binary-search-tree-iterator/binary-search-tree-iterator.java) | [Link](https://leetcode.com/problems/binary-search-tree-iterator) | Implement the BSTIterator class that represents an iterator over the in-order traversal of a binary search tree (BST): |
 | - [ ] | 230 | [Kth Smallest Element in a BST](./230-kth-smallest-element-in-a-bst/README.md) | Medium | High | [Code](./230-kth-smallest-element-in-a-bst/kth-smallest-element-in-a-bst.java) | [Link](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | Given the root of a binary search tree, and an integer k , return the k th smallest value ( 1-indexed ) of all the va... |
+| - [ ] | 235 | [Lowest Common Ancestor of a Binary Search Tree](./235-lowest-common-ancestor-of-a-binary-search-tree/README.md) | Medium | Medium | [Code](./235-lowest-common-ancestor-of-a-binary-search-tree/lowest-common-ancestor-of-a-binary-search-tree.java) | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | Given a binary search tree (BST), find the lowest common ancestor (LCA) node of two given nodes in the BST. |
 | - [ ] | 540 | [Single Element in a Sorted Array](./540-single-element-in-a-sorted-array/README.md) | Medium | Medium | [Code](./540-single-element-in-a-sorted-array/single-element-in-a-sorted-array.java) | [Link](https://leetcode.com/problems/single-element-in-a-sorted-array) | You are given a sorted array consisting of only integers where every element appears exactly twice, except for one el... |
 | - [ ] | 653 | [Two Sum IV - Input is a BST](./653-two-sum-iv-input-is-a-bst/README.md) | Easy | Medium | [Code](./653-two-sum-iv-input-is-a-bst/two-sum-iv-input-is-a-bst.java) | [Link](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | Given the root of a binary search tree and an integer k , return true if there exist two elements in the BST such tha... |
 | - [ ] | 783 | [Search in a Binary Search Tree](./783-search-in-a-binary-search-tree/README.md) | Easy | Medium | [Code](./783-search-in-a-binary-search-tree/search-in-a-binary-search-tree.java) | [Link](https://leetcode.com/problems/search-in-a-binary-search-tree) | You are given the root of a binary search tree (BST) and an integer val . |
@@ -329,6 +330,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 213 | [House Robber II](./213-house-robber-ii/README.md) | Medium | High | [Code](./213-house-robber-ii/house-robber-ii.java) | [Link](https://leetcode.com/problems/house-robber-ii) | You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed... |
 | - [ ] | 226 | [Invert Binary Tree](./226-invert-binary-tree/README.md) | Easy | Medium | — | [Link](https://leetcode.com/problems/invert-binary-tree) | Given the root of a binary tree, invert the tree, and return its root . |
 | - [ ] | 230 | [Kth Smallest Element in a BST](./230-kth-smallest-element-in-a-bst/README.md) | Medium | High | [Code](./230-kth-smallest-element-in-a-bst/kth-smallest-element-in-a-bst.java) | [Link](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | Given the root of a binary search tree, and an integer k , return the k th smallest value ( 1-indexed ) of all the va... |
+| - [ ] | 235 | [Lowest Common Ancestor of a Binary Search Tree](./235-lowest-common-ancestor-of-a-binary-search-tree/README.md) | Medium | Medium | [Code](./235-lowest-common-ancestor-of-a-binary-search-tree/lowest-common-ancestor-of-a-binary-search-tree.java) | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | Given a binary search tree (BST), find the lowest common ancestor (LCA) node of two given nodes in the BST. |
 | - [ ] | 236 | [Lowest Common Ancestor of a Binary Tree](./236-lowest-common-ancestor-of-a-binary-tree/README.md) | Medium | High | [Code](./236-lowest-common-ancestor-of-a-binary-tree/lowest-common-ancestor-of-a-binary-tree.java) | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree. |
 | - [ ] | 297 | [Serialize and Deserialize Binary Tree](./297-serialize-and-deserialize-binary-tree/README.md) | Hard | High | [Code](./297-serialize-and-deserialize-binary-tree/serialize-and-deserialize-binary-tree.java) | [Link](https://leetcode.com/problems/serialize-and-deserialize-binary-tree) | Serialization is the process of converting a data structure or object into a sequence of bits so that it can be store... |
 | - [ ] | 340 | [Longest Substring with At Most K Distinct Characters](./340-longest-substring-with-at-most-k-distinct-characters/README.md) | Medium | Medium | [Code](./340-longest-substring-with-at-most-k-distinct-characters/longest-substring-with-at-most-k-distinct-characters.java) | [Link](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters) | Given a string s and an integer k , return the length of the longest substring of s that contains at most k distinct... |
