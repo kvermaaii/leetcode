@@ -5,12 +5,12 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 183
+**Total questions indexed:** 184
 
 
 ## Topic Index
 
-- [Arrays](#arrays) (109)
+- [Arrays](#arrays) (110)
 - [Hashing](#hashing) (16)
 - [Two Pointers](#two-pointers) (11)
 - [Sliding Window](#sliding-window) (13)
@@ -24,7 +24,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 - [Trees & BST](#trees--bst) (40)
 - [Graphs (BFS/DFS)](#graphs-bfsdfs) (7)
 - [Dynamic Programming](#dynamic-programming) (17)
-- [Backtracking](#backtracking) (9)
+- [Backtracking](#backtracking) (10)
 - [Greedy](#greedy) (3)
 - [Strings](#strings) (29)
 - [Bit Manipulation](#bit-manipulation) (7)
@@ -86,6 +86,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 653 | [Two Sum IV - Input is a BST](./653-two-sum-iv-input-is-a-bst/README.md) | Easy | Medium | [Code](./653-two-sum-iv-input-is-a-bst/two-sum-iv-input-is-a-bst.java) | [Link](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | Given the root of a binary search tree and an integer k , return true if there exist two elements in the BST such tha... |
 | - [ ] | 662 | [Maximum Width of Binary Tree](./662-maximum-width-of-binary-tree/README.md) | Medium | Medium | [Code](./662-maximum-width-of-binary-tree/maximum-width-of-binary-tree.java) | [Link](https://leetcode.com/problems/maximum-width-of-binary-tree) | Given the root of a binary tree, return the maximum width of the given tree . |
 | - [ ] | 686 | [Repeated String Match](./686-repeated-string-match/README.md) | Medium | Medium | [Code](./686-repeated-string-match/repeated-string-match.java) | [Link](https://leetcode.com/problems/repeated-string-match) | Given two strings a and b , return the minimum number of times you should repeat string a so that string b is a subst... |
+| - [ ] | 698 | [Partition to K Equal Sum Subsets](./698-partition-to-k-equal-sum-subsets/README.md) | Medium | Medium | [Code](./698-partition-to-k-equal-sum-subsets/partition-to-k-equal-sum-subsets.java) | [Link](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) | Given an integer array nums and an integer k , return true if it is possible to divide this array into k non-empty su... |
 | - [ ] | 713 | [Subarray Product Less Than K](./713-subarray-product-less-than-k/README.md) | Medium | Medium | [Code](./713-subarray-product-less-than-k/subarray-product-less-than-k.java) | [Link](https://leetcode.com/problems/subarray-product-less-than-k) | Given an array of integers nums and an integer k , return the number of contiguous subarrays where the product of all... |
 | - [ ] | 735 | [Asteroid Collision](./735-asteroid-collision/README.md) | Medium | Medium | [Code](./735-asteroid-collision/asteroid-collision.java) | [Link](https://leetcode.com/problems/asteroid-collision) | We are given an array asteroids of integers representing asteroids in a row. The indices of the asteriod in the array... |
 | - [ ] | 792 | [Binary Search](./792-binary-search/README.md) | Easy | Medium | [Code](./792-binary-search/binary-search.java) | [Link](https://leetcode.com/problems/binary-search) | Given an array of integers nums which is sorted in ascending order, and an integer target , write a function to searc... |
@@ -395,6 +396,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 90 | [Subsets II](./90-subsets-ii/README.md) | Medium | Medium | [Code](./90-subsets-ii/subsets-ii.java) | [Link](https://leetcode.com/problems/subsets-ii) | Given an integer array nums that may contain duplicates, return all possible subsets (the power set) . |
 | - [ ] | 131 | [Palindrome Partitioning](./131-palindrome-partitioning/README.md) | Medium | High | [Code](./131-palindrome-partitioning/palindrome-partitioning.java) | [Link](https://leetcode.com/problems/palindrome-partitioning) | Given a string s , partition s such that every substring of the partition is a palindrome . Return all possible palin... |
 | - [ ] | 416 | [Partition Equal Subset Sum](./416-partition-equal-subset-sum/README.md) | Medium | High | [Code](./416-partition-equal-subset-sum/partition-equal-subset-sum.java) | [Link](https://leetcode.com/problems/partition-equal-subset-sum) | Given an integer array nums , return true if you can partition the array into two subsets such that the sum of the el... |
+| - [ ] | 698 | [Partition to K Equal Sum Subsets](./698-partition-to-k-equal-sum-subsets/README.md) | Medium | Medium | [Code](./698-partition-to-k-equal-sum-subsets/partition-to-k-equal-sum-subsets.java) | [Link](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) | Given an integer array nums and an integer k , return true if it is possible to divide this array into k non-empty su... |
 
 ## Greedy
 
