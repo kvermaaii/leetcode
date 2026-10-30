@@ -14,30 +14,31 @@
  * }
  */
 class Solution {
-    int diameter = 0;
     public int diameterOfBinaryTree(TreeNode root) {
         if(root == null) return 0;
-        rec(root);
-        return diameter-1;
+        Queue<TreeNode> q = new ArrayDeque<>();
+        q.add(root);
+        int ans = 0;
+        while(!q.isEmpty()){
+            int leftmax = maxdepth(q.peek().left);
+            int rightmax = maxdepth(q.peek().right);
+            ans = Math.max(ans, leftmax + rightmax );
+            if(q.peek().left != null){
+                q.add(q.peek().left);
+            }
+            if(q.peek().right != null){
+                q.add(q.peek().right);
+            }
+            q.poll();
+        }
+        return ans;
     }
-    public int rec(TreeNode node){
-        int leftLength = 0, rightLength = 0;
-        if(node.left != null){
-            leftLength = rec(node.left);
-        }
-        if(node.right != null){
-            rightLength = rec(node.right);
-        }
-        diameter = Math.max(diameter, rightLength + leftLength + 1);
-
-        return 1 + Math.max(leftLength, rightLength);
-    }
-    public int maxDepth(TreeNode node, int level) {
-        if (node == null) {
-            return level;
-        }
-        int leftDepth = maxDepth(node.left, level + 1);
-        int rightDepth = maxDepth(node.right, level + 1);
-        return Math.max(leftDepth, rightDepth);
+    public int maxdepth(TreeNode root){
+        if(root == null) return 0;
+        int leftmax = 0;
+        int rightmax = 0;
+        leftmax = 1 + maxdepth(root.left);
+        rightmax = 1 + maxdepth(root.right);
+        return Math.max(leftmax, rightmax);
     }
 }
