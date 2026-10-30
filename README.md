@@ -5,18 +5,18 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 > **How to use:** Tick the checkbox in each topic table when you revise that question. Some questions intentionally appear in multiple topics/patterns.
 
 
-**Total questions indexed:** 184
+**Total questions indexed:** 185
 
 
 ## Topic Index
 
-- [Arrays](#arrays) (110)
+- [Arrays](#arrays) (111)
 - [Hashing](#hashing) (16)
 - [Two Pointers](#two-pointers) (11)
 - [Sliding Window](#sliding-window) (13)
 - [Prefix Sum](#prefix-sum) (4)
 - [Binary Search](#binary-search) (15)
-- [Sorting / Ordering](#sorting--ordering) (21)
+- [Sorting / Ordering](#sorting--ordering) (22)
 - [Stack / Monotonic Stack](#stack--monotonic-stack) (8)
 - [Queue / Deque](#queue--deque) (5)
 - [Heap / Priority Queue](#heap--priority-queue) (3)
@@ -39,6 +39,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | - [ ] | 11 | [Container With Most Water](./11-container-with-most-water/README.md) | Medium | Medium | — | [Link](https://leetcode.com/problems/container-with-most-water) | You are given an integer array height of length n . There are n vertical lines drawn such that the two endpoints of t... |
 | - [ ] | 14 | [Longest Common Prefix](./14-longest-common-prefix/README.md) | Easy | Medium | [Code](./14-longest-common-prefix/longest-common-prefix.java) | [Link](https://leetcode.com/problems/longest-common-prefix) | Write a function to find the longest common prefix string amongst an array of strings. |
 | - [ ] | 15 | [3Sum](./15-3sum/README.md) | Medium | High | [Code](./15-3sum/3sum.java) | [Link](https://leetcode.com/problems/3sum) | Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j , i != k , and j !=... |
+| - [ ] | 23 | [Merge k Sorted Lists](./23-merge-k-sorted-lists/README.md) | Hard | High | [Code](./23-merge-k-sorted-lists/merge-k-sorted-lists.java) | [Link](https://leetcode.com/problems/merge-k-sorted-lists) | You are given an array of k linked-lists lists , each linked-list is sorted in ascending order. |
 | - [ ] | 26 | [Remove Duplicates from Sorted Array](./26-remove-duplicates-from-sorted-array/README.md) | Easy | Medium | [Code](./26-remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.java) | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | Given an integer array nums sorted in non-decreasing order , remove the duplicates in-place such that each unique ele... |
 | - [ ] | 33 | [Search in Rotated Sorted Array](./33-search-in-rotated-sorted-array/README.md) | Medium | Medium | [Code](./33-search-in-rotated-sorted-array/search-in-rotated-sorted-array.c) | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array) | There is an integer array nums sorted in ascending order (with distinct values). |
 | - [ ] | 39 | [Combination Sum](./39-combination-sum/README.md) | Medium | Medium | [Code](./39-combination-sum/combination-sum.java) | [Link](https://leetcode.com/problems/combination-sum) | Given an array of distinct integers candidates and a target integer target , return a list of all unique combinations... |
@@ -235,6 +236,7 @@ This repository is organized topic-wise so you can quickly revise for DSE interv
 | Revise | # | Question | Difficulty | Importance | Local | LeetCode | Description |
 |---|---:|---|---|---|---|---|---|
 | - [ ] | 21 | [Merge Two Sorted Lists](./21-merge-two-sorted-lists/README.md) | Easy | High | [Code](./21-merge-two-sorted-lists/merge-two-sorted-lists.java) | [Link](https://leetcode.com/problems/merge-two-sorted-lists) | You are given the heads of two sorted linked lists list1 and list2 . |
+| - [ ] | 23 | [Merge k Sorted Lists](./23-merge-k-sorted-lists/README.md) | Hard | High | [Code](./23-merge-k-sorted-lists/merge-k-sorted-lists.java) | [Link](https://leetcode.com/problems/merge-k-sorted-lists) | You are given an array of k linked-lists lists , each linked-list is sorted in ascending order. |
 | - [ ] | 26 | [Remove Duplicates from Sorted Array](./26-remove-duplicates-from-sorted-array/README.md) | Easy | Medium | [Code](./26-remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.java) | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | Given an integer array nums sorted in non-decreasing order , remove the duplicates in-place such that each unique ele... |
 | - [ ] | 33 | [Search in Rotated Sorted Array](./33-search-in-rotated-sorted-array/README.md) | Medium | Medium | [Code](./33-search-in-rotated-sorted-array/search-in-rotated-sorted-array.c) | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array) | There is an integer array nums sorted in ascending order (with distinct values). |
 | - [ ] | 46 | [Permutations](./46-permutations/README.md) | Medium | Medium | [Code](./46-permutations/permutations.java) | [Link](https://leetcode.com/problems/permutations) | Given an array nums of distinct integers, return all the possible permutations . You can return the answer in any ord... |
